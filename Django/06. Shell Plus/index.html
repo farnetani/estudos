@@ -659,9 +659,59 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        06. Rodando o shell_plus para executar comandos python
+      </label>
+    
     <a href="./" title="06. Rodando o shell_plus para executar comandos python" class="md-nav__link md-nav__link--active">
       06. Rodando o shell_plus para executar comandos python
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ativando-o-django-extensions" title="Ativando o Django Extensions" class="md-nav__link">
+    Ativando o Django Extensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executando-via-console" title="Executando via console:" class="md-nav__link">
+    Executando via console:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executando-via-navegador-browser" title="Executando via navegador (browser):" class="md-nav__link">
+    Executando via navegador (browser):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes" title="Observações" class="md-nav__link">
+    Observações
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -746,6 +796,30 @@
   <li class="md-nav__item">
     <a href="../13.%20Criando%20o%20nosso%20primeiro%20CRUD/" title="13. Criando o nosso primeiro CRUD" class="md-nav__link">
       13. Criando o nosso primeiro CRUD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../14.%20Trabalhando%20com%20os%20Migrations/" title="14. Trabalhando com os Migrations" class="md-nav__link">
+      14. Trabalhando com os Migrations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../15.%20Testando%20nosso%20primeiro%20CRUD/" title="15. Testando nosso primeiro CRUD" class="md-nav__link">
+      15. Testando nosso primeiro CRUD
     </a>
   </li>
 
@@ -1600,6 +1674,43 @@
     
   
   
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ativando-o-django-extensions" title="Ativando o Django Extensions" class="md-nav__link">
+    Ativando o Django Extensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executando-via-console" title="Executando via console:" class="md-nav__link">
+    Executando via console:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executando-via-navegador-browser" title="Executando via navegador (browser):" class="md-nav__link">
+    Executando via navegador (browser):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacoes" title="Observações" class="md-nav__link">
+    Observações
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1612,6 +1723,7 @@
                 
                 
                 <h1 id="06-rodando-o-shell_plus-para-executar-comandos-python">06. Rodando o shell_plus para executar comandos python<a class="headerlink" href="#06-rodando-o-shell_plus-para-executar-comandos-python" title="Permanent link">&para;</a></h1>
+<h2 id="ativando-o-django-extensions">Ativando o Django Extensions<a class="headerlink" href="#ativando-o-django-extensions" title="Permanent link">&para;</a></h2>
 <p>Para ativar o <code>shell_plus</code>, basta jogar em <em><code>INSTALLED_APPS</code></em> no arquivo <strong>settings.py</strong> o <code>'django_extensions'</code></p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
@@ -1633,12 +1745,12 @@
 </pre></div>
 </td></tr></table>
 
-<p>Executando via console:</p>
+<h2 id="executando-via-console">Executando via console:<a class="headerlink" href="#executando-via-console" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage shell_plus
 </pre></div>
 </td></tr></table>
 
-<p>Executando via browser:</p>
+<h2 id="executando-via-navegador-browser">Executando via navegador (browser):<a class="headerlink" href="#executando-via-navegador-browser" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage shell_plus --notebook
@@ -1654,6 +1766,11 @@ http://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21
   <kbd>enter</kbd> : Pula linha
   <kbd>shift-enter</kbd> : Executa o comando</p>
 <p><a href="../../assets/images/shell_plus_exemplo.PNG"><img alt="Shell_Plus_Exemplo" src="../../assets/images/shell_plus_exemplo.PNG" /></a></p>
+<h2 id="observacoes">Observações<a class="headerlink" href="#observacoes" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Para que serve o Shell_Plus?</p>
+<p>"Mais para frente você entenderá melhor a necessidade do uso dele. Facilita demais testarmos a aplicação.</p>
+</div>
 <div class="admonition info">
 <p class="admonition-title">Shell_Plus</p>
 <p>"Para sair do shell_plus via console, é só digitar: <code>exit()</code> e pressionar <kbd>enter</kbd> e para sair do shell_plus via browser, quero dizer, parar o serviço, basta ir no console que estiver executando e pressionar: <kbd>ctrl+c</kbd></p>

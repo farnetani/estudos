@@ -699,8 +699,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../10.%20Configurando%20o%20REST_FRAMEWORK/" title="11. Configurando o REST_FRAMEWORK" class="md-nav__link">
-      11. Configurando o REST_FRAMEWORK
+    <a href="../10.%20Configurando%20o%20REST_FRAMEWORK/" title="10. Configurando o REST_FRAMEWORK" class="md-nav__link">
+      10. Configurando o REST_FRAMEWORK
     </a>
   </li>
 
@@ -743,10 +743,84 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        13. Criando o nosso primeiro CRUD
+      </label>
+    
     <a href="./" title="13. Criando o nosso primeiro CRUD" class="md-nav__link md-nav__link--active">
       13. Criando o nosso primeiro CRUD
     </a>
     
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-tarefas" title="Exemplo: Tarefas" class="md-nav__link">
+    Exemplo: Tarefas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padrao-mvt-model-view-template" title="Padrão MVT (Model, View, Template)" class="md-nav__link">
+    Padrão MVT (Model, View, Template)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-o-model-tarefas" title="Criando o Model: Tarefas" class="md-nav__link">
+    Criando o Model: Tarefas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#habilitando-no-admin-do-django-o-model-tarefas" title="Habilitando no Admin do Django o model Tarefas" class="md-nav__link">
+    Habilitando no Admin do Django o model Tarefas
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../14.%20Trabalhando%20com%20os%20Migrations/" title="14. Trabalhando com os Migrations" class="md-nav__link">
+      14. Trabalhando com os Migrations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../15.%20Testando%20nosso%20primeiro%20CRUD/" title="15. Testando nosso primeiro CRUD" class="md-nav__link">
+      15. Testando nosso primeiro CRUD
+    </a>
   </li>
 
         
@@ -1600,6 +1674,43 @@
     
   
   
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-tarefas" title="Exemplo: Tarefas" class="md-nav__link">
+    Exemplo: Tarefas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padrao-mvt-model-view-template" title="Padrão MVT (Model, View, Template)" class="md-nav__link">
+    Padrão MVT (Model, View, Template)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-o-model-tarefas" title="Criando o Model: Tarefas" class="md-nav__link">
+    Criando o Model: Tarefas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#habilitando-no-admin-do-django-o-model-tarefas" title="Habilitando no Admin do Django o model Tarefas" class="md-nav__link">
+    Habilitando no Admin do Django o model Tarefas
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1613,8 +1724,11 @@
                 
                 <h1 id="13-criando-o-nosso-primeiro-crud">13. Criando o nosso primeiro CRUD<a class="headerlink" href="#13-criando-o-nosso-primeiro-crud" title="Permanent link">&para;</a></h1>
 <p>Vamos criar agora um pequeno CRUD bem simples para exemplificar o uso do Admin do Django e depois veremos como irá funcionar como Rest Api.</p>
+<h2 id="exemplo-tarefas">Exemplo: Tarefas<a class="headerlink" href="#exemplo-tarefas" title="Permanent link">&para;</a></h2>
 <p>Para isso, iremos criar uma tabela no banco bem simples, apenas com 3 campos, chamada: Tarefas.</p>
+<h2 id="padrao-mvt-model-view-template">Padrão MVT (Model, View, Template)<a class="headerlink" href="#padrao-mvt-model-view-template" title="Permanent link">&para;</a></h2>
 <p>No django, o padrão de desenvolvimento é MVT e não MVC, mais adiante vamos entender melhor isso.</p>
+<h2 id="criando-o-model-tarefas">Criando o Model: Tarefas<a class="headerlink" href="#criando-o-model-tarefas" title="Permanent link">&para;</a></h2>
 <p>Abrir o arquivo <strong><code>core &gt; models.py</code></strong> e implementar o código abaixo:</p>
 <div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Tarefa</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
 
@@ -1634,6 +1748,8 @@
         <span class="n">ordering</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;descricao&#39;</span><span class="p">)</span>
 </pre></div>
 
+<h2 id="habilitando-no-admin-do-django-o-model-tarefas">Habilitando no Admin do Django o model Tarefas<a class="headerlink" href="#habilitando-no-admin-do-django-o-model-tarefas" title="Permanent link">&para;</a></h2>
+<p>Vamos habilitar no Admin do Django os recursos de CRUD e mais recursos de pesquisa e filtro e determinar quais campos (fields) queremos que apareça no GRID.</p>
 <p>Editar o arquivo <strong><code>core &gt; admin.py</code></strong> e registrar o Model criado:</p>
 <div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
 <span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Tarefa</span>
@@ -1647,126 +1763,6 @@
     <span class="n">list_filter</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">)</span>
     <span class="n">search_fields</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,)</span>
 </pre></div>
-
-<p>Agora é a hora da mágica (rs), basta executar o comando:</p>
-<div class="codehilite"><pre><span></span>manage makemigrations
-</pre></div>
-
-<p>E o django irá criar a migration da tabela <strong><code>tarefa</code></strong> chamada de <strong><code>0001_initial.py</code></strong>.</p>
-<p>Agora vamos executar o comando abaixo para criar em sí a tabela no banco de dados:</p>
-<div class="codehilite"><pre><span></span>manage migrate
-</pre></div>
-
-<p>Por convensão, o django irá criar a tabela no banco chamada de: <strong><code>core_tarefa</code></strong>, ou seja, ele irá gerar um prefixo: "core_" que é o nome da nossa App criada.</p>
-<p>Você pode comprovar conforme imagem abaixo obtida entrando no mysql:</p>
-<div class="codehilite"><pre><span></span>mysql -u root -p
-</pre></div>
-
-<p><a href="../../assets/images/bancodedados.PNG"><img alt="core_tarefas" src="../../assets/images/bancodedados.PNG" /></a></p>
-<ul>
-<li>Forçando o nome da tabela a ser criado sem o prefixo.</li>
-</ul>
-<p>Abra o arquivo <strong><code>core &gt; models.py</code></strong> e adicione o seguinte código dentro do class Meta:</p>
-<div class="codehilite"><pre><span></span><span class="n">db_table</span> <span class="o">=</span> <span class="s1">&#39;tarefas&#39;</span>
-</pre></div>
-
-<p>Ficará assim:</p>
-<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
-
-<span class="c1"># Create your models here.</span>
-
-<span class="k">class</span> <span class="nc">Tarefa</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
-
-    <span class="n">STATUS</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="p">(</span><span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;Pendente&#39;</span><span class="p">),</span>
-        <span class="p">(</span><span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;Finalizada&#39;</span><span class="p">),</span>
-        <span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;Cancelada&#39;</span><span class="p">)</span>
-    <span class="p">)</span>
-
-    <span class="n">descricao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">)</span>
-    <span class="n">status</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">choices</span><span class="o">=</span><span class="n">STATUS</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;P&#39;</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">descricao</span>
-
-    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
-        <span class="n">ordering</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;descricao&#39;</span><span class="p">)</span>
-<span class="hll">        <span class="n">db_table</span> <span class="o">=</span> <span class="s1">&#39;tarefas&#39;</span>
-</span></pre></div>
-
-<p>Imagine que agora iremos precisar recriar a migration novamente e desfazer a que criamos.</p>
-<p>Para visualizar as migrations já criadas/executadas, digite o comando:</p>
-<div class="codehilite"><pre><span></span>manage showmigrations core
-</pre></div>
-
-<p>Você terá algo como:</p>
-<div class="codehilite"><pre><span></span>[X] 0001_initial
-</pre></div>
-
-<p>Como estamos no início da aplicação, podemos reverter todas as migrations com o comando:</p>
-<div class="codehilite"><pre><span></span>manage migrate core zero
-</pre></div>
-
-<p>Se executarmos novamente o comando para ver as migrations executadas, teremos:</p>
-<div class="codehilite"><pre><span></span>manage showmigrations core
-</pre></div>
-
-<p>Deverá ter algo como:</p>
-<div class="codehilite"><pre><span></span> [ ] 0001_initial
-</pre></div>
-
-<p>Agora, podemos remover o arquivo <strong><code>core &gt; migrations &gt; 0001_initial.py</code></strong> e recriá-lo com o comando:</p>
-<div class="codehilite"><pre><span></span>manage makemigrations
-</pre></div>
-
-<p>Você vai notar se editar o arquivo que ele criou em options a instrução abaixo:</p>
-<div class="codehilite"><pre><span></span><span class="s1">&#39;db_table&#39;</span><span class="p">:</span> <span class="s1">&#39;tarefas&#39;</span><span class="p">,</span>
-</pre></div>
-
-<p>Se tudo correu bem e você entrar no banco de dados (mysql), você deverá ter a sua tabela anterior: <code>core_tabelas</code> excluída e a nova tabela: <code>tarefas</code> gerada com sucesso conforme a imagem abaixo:</p>
-<p><a href="../../assets/images/bancodedados_novo.PNG"><img alt="Tarefas" src="../../assets/images/bancodedados_novo.PNG" /></a></p>
-<div class="admonition info">
-<p class="admonition-title">Migration</p>
-<p>manage migrate core zero</p>
-</div>
-<ul>
-<li>Vamos testar a aplicação.</li>
-</ul>
-<p>``` dos
-manage runserver 127.0.0.1:8081
-````</p>
-<ul>
-<li>Abrir o admin no navegador: <code>http://localhost:8081/admin/</code></li>
-</ul>
-<p>Você deverá ter algo do tipo:</p>
-<p><strong>Admin do Django com o módulo de Tarefas dentro do Core</strong>
-  <a href="../../assets/images/tarefa_menu.PNG"><img alt="Tarefas Menu" src="../../assets/images/tarefa_menu.PNG" /></a></p>
-<ul>
-<li>Abrir o admin no navegador: <code>http://localhost:8081/admin/core/tarefa/</code> ou clicar simplesmente em Tarefas no módulo do Admin acima:</li>
-</ul>
-<p><a href="../../assets/images/tarefa_crud.PNG"><img alt="Tarefas Crud" src="../../assets/images/tarefa_crud.PNG" /></a>
-  <center><strong>CRUD : Com todas as funcionalidades</strong></center></p>
-<p><a href="../../assets/images/tarefa_crud_insert.PNG"><img alt="Tarefas Insert" src="../../assets/images/tarefa_crud_insert.PNG" /></a>
-  <center><strong>CRUD : Incluir</strong></center></p>
-<p><a href="../../assets/images/tarefa_crud_inserted.PNG"><img alt="Tarefas Edit" src="../../assets/images/tarefa_crud_inserted.PNG" /></a>
-  <center><strong>CRUD : Pesquisar</strong></center></p>
-<p><a href="../../assets/images/tarefa_crud_edit.PNG"><img alt="Tarefas Edit" src="../../assets/images/tarefa_crud_edit.PNG" /></a>
-  <center><strong>CRUD : Editar (clicar na descrição)</strong></center></p>
-<p><a href="../../assets/images/tarefa_crud_delete.PNG"><img alt="Tarefas Delete" src="../../assets/images/tarefa_crud_delete.PNG" /></a>
-  <center><strong>CRUD : Excluir</strong></center></p>
-<p>Você vai notar que o DJANGO fez o CRUD completo pra nós.</p>
-<p>É importante ressaltar que esse <strong>CRUD</strong> possui o recurso de <strong>pesquisa</strong> (search), de <strong>filtro</strong> e de <strong>insert</strong>, <strong>edit</strong> e <strong>delete</strong> e isso se deu por conta da implementação feita no arquivo <strong><code>core &gt; admin.py</code></strong> abaixo:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nd">@admin.register</span><span class="p">(</span><span class="n">Tarefa</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">TarefaAdmin</span><span class="p">(</span><span class="n">admin</span><span class="o">.</span><span class="n">ModelAdmin</span><span class="p">):</span>
-<span class="hll">    <span class="n">list_display</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;descricao&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">]</span>
-</span><span class="hll">    <span class="n">list_filter</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">)</span>
-</span><span class="hll">    <span class="n">search_fields</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,)</span>
-</span></pre></div>
-</td></tr></table>
                 
                   
                 
@@ -1800,13 +1796,13 @@ manage runserver 127.0.0.1:8081
           </a>
         
         
-          <a href="../99.%20Tabela%20de%20Comandos/" title="99. Tabela de Comandos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../14.%20Trabalhando%20com%20os%20Migrations/" title="14. Trabalhando com os Migrations" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                99. Tabela de Comandos
+                14. Trabalhando com os Migrations
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

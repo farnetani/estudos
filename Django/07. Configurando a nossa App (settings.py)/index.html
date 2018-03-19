@@ -690,8 +690,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="2.8. Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
-    2.8. Criando um arquivo .env e profissionalizando a estrutura
+  <a href="#configurando-idioma-no-settingspy" title="Configurando idioma no settings.py" class="md-nav__link">
+    Configurando idioma no settings.py
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
+    Criando um arquivo .env e profissionalizando a estrutura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracoes-no-settingspy-vindas-do-env" title="Configurações no settings.py vindas do .env" class="md-nav__link">
+    Configurações no settings.py vindas do .env
   </a>
   
 </li>
@@ -775,6 +789,30 @@
   <li class="md-nav__item">
     <a href="../13.%20Criando%20o%20nosso%20primeiro%20CRUD/" title="13. Criando o nosso primeiro CRUD" class="md-nav__link">
       13. Criando o nosso primeiro CRUD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../14.%20Trabalhando%20com%20os%20Migrations/" title="14. Trabalhando com os Migrations" class="md-nav__link">
+      14. Trabalhando com os Migrations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../15.%20Testando%20nosso%20primeiro%20CRUD/" title="15. Testando nosso primeiro CRUD" class="md-nav__link">
+      15. Testando nosso primeiro CRUD
     </a>
   </li>
 
@@ -1633,8 +1671,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="2.8. Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
-    2.8. Criando um arquivo .env e profissionalizando a estrutura
+  <a href="#configurando-idioma-no-settingspy" title="Configurando idioma no settings.py" class="md-nav__link">
+    Configurando idioma no settings.py
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
+    Criando um arquivo .env e profissionalizando a estrutura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracoes-no-settingspy-vindas-do-env" title="Configurações no settings.py vindas do .env" class="md-nav__link">
+    Configurações no settings.py vindas do .env
   </a>
   
 </li>
@@ -1658,9 +1710,7 @@
                 
                 <h1 id="07-configurando-a-nossa-app-settingspy">07. Configurando a nossa App (settings.py)<a class="headerlink" href="#07-configurando-a-nossa-app-settingspy" title="Permanent link">&para;</a></h1>
 <p>O arquivo principal de uma aplicação Django é o settings.py, e é nele que iremos mexer bem agora.</p>
-<ul>
-<li>
-<p>Configurando idioma no <strong>settings.py</strong></p>
+<h2 id="configurando-idioma-no-settingspy">Configurando idioma no <strong>settings.py</strong><a class="headerlink" href="#configurando-idioma-no-settingspy" title="Permanent link">&para;</a></h2>
 <p>Aonde você tem:</p>
 <div class="codehilite"><pre><span></span><span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="s1">&#39;en-us&#39;</span>
 <span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="s1">&#39;UTC&#39;</span>
@@ -1671,9 +1721,7 @@
 <span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Sao_Paulo&#39;</span>
 </pre></div>
 
-</li>
-</ul>
-<h3 id="28-criando-um-arquivo-env-e-profissionalizando-a-estrutura">2.8. Criando um arquivo .env e profissionalizando a estrutura<a class="headerlink" href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="Permanent link">&para;</a></h3>
+<h2 id="criando-um-arquivo-env-e-profissionalizando-a-estrutura">Criando um arquivo .env e profissionalizando a estrutura<a class="headerlink" href="#criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="Permanent link">&para;</a></h2>
 <p>É muito importante para termos uma estrutura mais profissional separarmos as configurações de ambiente de configurações do projeto. Para isso usaremos da prática de se criar um arquivo <strong><code>.env</code></strong> na raiz do projeto onde deverá conter as minhas configurações.</p>
 <p>Utilizaremos de uma lib criado pelo Henrique Bastos (welcomethedjango : referência de curso na área) chamada python-decouple e também da lib dj-database-url.</p>
 <ul>
@@ -1699,9 +1747,7 @@
 <div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">decouple</span> <span class="kn">import</span> <span class="n">config</span><span class="p">,</span> <span class="n">Csv</span>
 <span class="kn">from</span> <span class="nn">dj_database_url</span> <span class="kn">import</span> <span class="n">parse</span>
 </pre></div></p>
-<ul>
-<li>Substitua o conteúdo abaixo de forma que fique agora dinâmico:</li>
-</ul>
+<h2 id="configuracoes-no-settingspy-vindas-do-env">Configurações no settings.py vindas do .env<a class="headerlink" href="#configuracoes-no-settingspy-vindas-do-env" title="Permanent link">&para;</a></h2>
 <p><strong>settings.py</strong>
 <div class="codehilite"><pre><span></span><span class="c1"># SECURITY WARNING: keep the secret key used in production secret!</span>
 <span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">)</span>

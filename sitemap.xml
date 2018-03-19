@@ -128,6 +128,18 @@
     </url>
         
     <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/14. Trabalhando com os Migrations/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/15. Testando nosso primeiro CRUD/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://squidfunk.github.io/mkdocs-material//Django/99. Tabela de Comandos/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
