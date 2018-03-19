@@ -31,64 +31,239 @@
             "title": "Produtividade"
         },
         {
-            "location": "/Desenvolvimento/Delphi/",
+            "location": "/Delphi/",
             "text": "Delphi\n\u00b6",
             "title": "Delphi"
         },
         {
-            "location": "/Desenvolvimento/Delphi/#delphi",
+            "location": "/Delphi/#delphi",
             "text": "",
             "title": "Delphi"
         },
         {
-            "location": "/Desenvolvimento/Django/",
-            "text": "Django\n\u00b6",
-            "title": "Django"
+            "location": "/Desenvolvimento/Mkdocs/",
+            "text": "Usando Mkdocs Material\n\u00b6\n\n\nMkdocs Material - Link\n\n\nAtalhos\n\u00b6\n\n\n\n\nWell-designed search interface accessible through hotkeys (\nF\n or\n  \nS\n), intelligent grouping of search results, search term\n  highlighting and lazy loading.\n\n\n\n\nFavicon\n\u00b6\n\n\n\n\nDefault: \nassets/images/favicon.png\n\n\n\n\nImagem\n\u00b6\n\n\n\n\n\n\nAten\u00e7\u00e3o: \nSem Link\n\n\n\n\n\n\nLink\n\u00b6\n\n\nFor detailed instructions see the \ngetting started guide\n.\n\n\nHeadings\n\u00b6\n\n\nThe 3\nrd\n level\n\u00b6\n\n\nThe 4\nth\n level\n\u00b6\n\n\nThe 5\nth\n level\n\u00b6\n\n\nThe 6\nth\n level\n\u00b6\n\n\nHeadings \nwith secondary text\n\u00b6\n\n\nThe 3\nrd\n level \nwith secondary text\n\u00b6\n\n\nThe 4\nth\n level \nwith secondary text\n\u00b6\n\n\nThe 5\nth\n level \nwith secondary text\n\u00b6\n\n\nThe 6\nth\n level \nwith secondary text\n\u00b6\n\n\nBlockquotes\n\u00b6\n\n\n\n\nMorbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum.\n  Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc\n  mauris, a ultricies libero efficitur sed. \nClass aptent\n taciti sociosqu ad\n  litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie\n  imperdiet consectetur.\n\n\n\n\nOther content blocks\n\u00b6\n\n\n\n\nVestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\n  lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\n  sit amet laoreet nibh.\n  \nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n<\n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n    \n}\n\n  \n}\n\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\nPraesent at \nreturn\n \ntarget\n, sodales nibh vel, tempor felis. Fusce\n      vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices.\n      Donec consectetur mauris non neque imperdiet, eget volutpat libero.\n\n\n\n\n\n\nLists\n\u00b6\n\n\nUnordered lists\n\u00b6\n\n\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\n  non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\n  at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.\n\n\n\n\nDuis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\n\n\nNam vulputate tincidunt fringilla.\n\n\nNullam dignissim ultrices urna non auctor.\n\n\n\n\n\n\n\n\nAliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut\n  eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam\n  ac, aliquet sed mauris.\n\n\n\n\n\n\nNulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur\n  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh\n  lacinia sed. Aenean in finibus diam.\n\n\n\n\n\n\nOrdered lists\n\u00b6\n\n\n\n\n\n\nInteger vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\n  elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\n  consectetur feugiat sodales.\n\n\n\n\n\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur\n  ridiculus mus. Aliquam ornare feugiat quam et egestas. Nunc id erat et quam\n  pellentesque lacinia eu vel odio.\n\n\n\n\n\n\nVivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet\n  quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a\n  ultricies libero efficitur sed.\n\n\n\n\nMauris dictum mi lacus\n\n\nUt sit amet placerat ante\n\n\nSuspendisse ac eros arcu\n\n\n\n\n\n\n\n\nMorbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet\n  rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Sed\n  aliquet, neque at rutrum mollis, neque nisi tincidunt nibh.\n\n\n\n\n\n\nPellentesque eget \nvar\n \n_extends\n ornare tellus, ut gravida mi.\n\nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n<\n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n    \n}\n\n  \n}\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\n\n\n\n\n\n\nDefinition lists\n\u00b6\n\n\n\n\nLorem ipsum dolor sit amet\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus\ntellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor\nlobortis orci, at elementum urna sodales vitae. In in vehicula nulla.\n\n\nDuis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\nNam vulputate tincidunt fringilla.\nNullam dignissim ultrices urna non auctor.\n\n\n\n\nCras arcu libero\n\n\n\n\nAliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin\nut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at\naliquam ac, aliquet sed mauris.\n\n\n\n\n\n\nCode blocks\n\u00b6\n\n\nInline\n\u00b6\n\n\nMorbi eget \ndapibus felis\n. Vivamus \nvenenatis porttitor\n tortor sit amet\nrutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,\nper inceptos himenaeos. \nPellentesque aliquet quam enim\n, eu volutpat urna\nrutrum a.\n\n\nNam vehicula nunc \nreturn\n \ntarget\n mauris, a ultricies libero efficitur\nsed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque\neget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.\n\n\nListing\n\u00b6\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n<\n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n    \n}\n\n  \n}\n\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\n\nHorizontal rules\n\u00b6\n\n\nAenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet\ndui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna\nnon auctor.\n\n\n\n\nAnota\u00e7\u00f5es\n\u00b6\n\n\n\n\nWhy is there an edit button at the top of every article?\n\n\nIf the \nrepo_url\n is set to a GitHub or BitBucket repository, and the\n\nrepo_name\n is set to \nGitHub\n or \nBitBucket\n (implied by default), an\nedit button will appear at the top of every article. This is the automatic\nbehavior that MkDocs implements. See the \nMkDocs documentation\n on more\nguidance regarding the \nedit_uri\n attribute, which defines whether the edit\nbutton is shown or not.\n\n\n\n\n\n\nInstallation on macOS\n\n\nWhen you're running the pre-installed version of Python on macOS, \npip\n\ntries to install packages in a folder for which your user might not have\nthe adequate permissions. There are two possible solutions for this:\n\n\n\n\n\n\nInstalling in user space\n (recommended): Provide the \n--user\n flag\n  to the install command and \npip\n will install the package in a user-site\n  location. This is the recommended way.\n\n\n\n\n\n\nSwitching to a homebrewed Python\n: Upgrade your Python installation\n  to a self-contained solution by installing Python with Homebrew. This\n  should eliminate a lot of problems you may be having with \npip\n.\n\n\n\n\n\n\n\n\n\n\nError: unrecognized theme 'material'\n\n\nIf you run into this error, the most common reason is that you installed\nMkDocs through some package manager (e.g. Homebrew or \napt-get\n) and the\nMaterial theme through \npip\n, so both packages end up in different\nlocations. MkDocs only checks its install location for themes.\n\n\n\n\n\n\nSearch language support for Chinese\n\n\n[lunr-languages][18] currently doesn't include a stemmer for Chinese or\nother Asian languages, but uses the Japanese stemmer, as some users\nreported pretty decent results.\n\n\n\n\nPrimary colors\n\u00b6\n\n\n\n\nDefault: \nindigo\n\n\n\n\nClick on a tile to change the primary color of the theme:\n\n\nRed\n\n\nPink\n\n\nPurple\n\n\nDeep Purple\n\n\nIndigo\n\n\nBlue\n\n\nLight Blue\n\n\nCyan\n\n\nTeal\n\n\nGreen\n\n\nLight Green\n\n\nLime\n\n\nYellow\n\n\nAmber\n\n\nOrange\n\n\nDeep Orange\n\n\nBrown\n\n\nGrey\n\n\nBlue Grey\n\n\nWhite\n\n\n\n  var buttons = document.querySelectorAll(\"button[data-md-color-primary]\");\n  Array.prototype.forEach.call(buttons, function(button) {\n    button.addEventListener(\"click\", function() {\n      document.body.dataset.mdColorPrimary = this.dataset.mdColorPrimary;\n    })\n  })\n\n\n\n\nAccent colors\n\u00b6\n\n\n\n\nDefault: \nindigo\n\n\n\n\nClick on a tile to change the accent color of the theme:\n\n\nRed\n\n\nPink\n\n\nPurple\n\n\nDeep Purple\n\n\nIndigo\n\n\nBlue\n\n\nLight Blue\n\n\nCyan\n\n\nTeal\n\n\nGreen\n\n\nLight Green\n\n\nLime\n\n\nYellow\n\n\nAmber\n\n\nOrange\n\n\nDeep Orange\n\n\n\n  var buttons = document.querySelectorAll(\"button[data-md-color-accent]\");\n  Array.prototype.forEach.call(buttons, function(button) {\n    button.addEventListener(\"click\", function() {\n      document.body.dataset.mdColorAccent = this.dataset.mdColorAccent;\n    })\n  })\n\n\n\n\nFont family\n\u00b6\n\n\n\n\nDefault: \nRoboto\n and \nRoboto Mono\n\n\n\n\nBy default the \nRoboto font family\n is included with the theme, specifically\nthe regular sans-serif type for text and the \nmonospaced\n type for code. Both\nfonts are loaded from \nGoogle Fonts\n and can be changed to other fonts,\nlike for example the \nUbuntu font family\n:\n\n\ntheme\n:\n\n  \nfont\n:\n\n    \ntext\n:\n \n'Ubuntu'\n\n    \ncode\n:\n \n'Ubuntu\n \nMono'\n\n\n\n\n\nThe text font will be loaded in weights 400 and \n700\n, the \nmonospaced\n font\nin regular weight. If you want to load fonts from other destinations or don't\nwant to use the Google Fonts loading magic, just set \nfont\n to \nfalse\n:\n\n\ntheme\n:\n\n  \nfont\n:\n \nfalse\n\n\n\n\n\nData tables\n\u00b6\n\n\n\n\n\n\n\n\nSollicitudo / Pellentesi\n\n\nconsectetur\n\n\nadipiscing\n\n\nelit\n\n\narcu\n\n\nsed\n\n\n\n\n\n\n\n\n\n\nVivamus a pharetra\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nOrnare viverra ex\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nMauris a ullamcorper\n\n\nyes\n\n\nyes\n\n\npartial\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nNullam urna elit\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nMalesuada eget finibus\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nUllamcorper\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nVestibulum sodales\n\n\nyes\n\n\n-\n\n\nyes\n\n\n-\n\n\nyes\n\n\n\n\n\n\nPulvinar nisl\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n-\n\n\n-\n\n\n\n\n\n\nPharetra aliquet est\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nSed suscipit\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nOrci non pretium\n\n\nyes\n\n\npartial\n\n\n-\n\n\n-\n\n\n-\n\n\n\n\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\nnon sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\nat elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.\n\n\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\n\n\n\n\nLorem\n\n\ndolor\n\n\namet\n\n\n\n\n\n\nipsum\n\n\nsit\n\n\n\n\n\n\n\n\n\n\nVestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\nlectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\nsit amet laoreet nibh.\n\n\n\n  \n\n    \n\n    \n\n  \n\n  \n\n    \n\n      \nTable\n\n      \nwith colgroups (Pandoc)\n\n    \n\n  \n\n  \n\n    \n\n      \nLorem\n\n      \nipsum dolor sit amet.\n\n    \n\n    \n\n      \nSed sagittis\n\n      \neleifend rutrum. Donec vitae suscipit est.\n\n    \n\n  \n\n\n\n\n\n\n\n\n  \n\n    \n\n      \nAvailable language stemmers\n\n    \n\n  \n\n  \n\n    \n\n      \nda\n / Danish\n\n      \ndu\n / Dutch\n\n      \nen\n / English\n\n      \nfi\n / Finnish\n\n    \n\n    \n\n      \nfr\n / French\n\n      \nde\n / German\n\n      \nhu\n / Hungarian\n\n      \nit\n / Italian\n\n    \n\n    \n\n      \njp\n / Japanese\n\n      \nno\n / Norwegian\n\n      \npt\n / Portugese\n\n      \nro\n / Romanian\n\n    \n\n    \n\n      \nru\n / Russian\n\n      \nes\n / Spanish\n\n      \nsv\n / Swedish\n\n      \ntr\n / Turkish",
+            "title": "Usando Mkdocs Material"
         },
         {
-            "location": "/Desenvolvimento/Django/#django",
+            "location": "/Desenvolvimento/Mkdocs/#usando-mkdocs-material",
+            "text": "Mkdocs Material - Link",
+            "title": "Usando Mkdocs Material"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#atalhos",
+            "text": "Well-designed search interface accessible through hotkeys ( F  or\n   S ), intelligent grouping of search results, search term\n  highlighting and lazy loading.",
+            "title": "Atalhos"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#favicon",
+            "text": "Default:  assets/images/favicon.png",
+            "title": "Favicon"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#imagem",
+            "text": "Aten\u00e7\u00e3o:  Sem Link",
+            "title": "Imagem"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#link",
+            "text": "For detailed instructions see the  getting started guide .",
+            "title": "Link"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#headings",
             "text": "",
-            "title": "Django"
+            "title": "Headings"
         },
         {
-            "location": "/Desenvolvimento/Javascript/",
+            "location": "/Desenvolvimento/Mkdocs/#the-3rd-level",
+            "text": "",
+            "title": "The 3rd level"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-4th-level",
+            "text": "",
+            "title": "The 4th level"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-5th-level",
+            "text": "",
+            "title": "The 5th level"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-6th-level",
+            "text": "",
+            "title": "The 6th level"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#headings-with-secondary-text",
+            "text": "",
+            "title": "Headings with secondary text"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-3rd-level-with-secondary-text",
+            "text": "",
+            "title": "The 3rd level with secondary text"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-4th-level-with-secondary-text",
+            "text": "",
+            "title": "The 4th level with secondary text"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-5th-level-with-secondary-text",
+            "text": "",
+            "title": "The 5th level with secondary text"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#the-6th-level-with-secondary-text",
+            "text": "",
+            "title": "The 6th level with secondary text"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#blockquotes",
+            "text": "Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum.\n  Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc\n  mauris, a ultricies libero efficitur sed.  Class aptent  taciti sociosqu ad\n  litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie\n  imperdiet consectetur.",
+            "title": "Blockquotes"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#other-content-blocks",
+            "text": "Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\n  lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\n  sit amet laoreet nibh.\n   var   _extends   =   function ( target )   { \n   for   ( var   i   =   1 ;   i   <   arguments . length ;   i ++ )   { \n     var   source   =   arguments [ i ]; \n     for   ( var   key   in   source )   { \n       target [ key ]   =   source [ key ]; \n     } \n   }     return   target ;  };    Praesent at  return   target , sodales nibh vel, tempor felis. Fusce\n      vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices.\n      Donec consectetur mauris non neque imperdiet, eget volutpat libero.",
+            "title": "Other content blocks"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#lists",
+            "text": "",
+            "title": "Lists"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#unordered-lists",
+            "text": "Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\n  non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\n  at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.   Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.  Nam vulputate tincidunt fringilla.  Nullam dignissim ultrices urna non auctor.     Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut\n  eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam\n  ac, aliquet sed mauris.    Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur\n  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh\n  lacinia sed. Aenean in finibus diam.",
+            "title": "Unordered lists"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#ordered-lists",
+            "text": "Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\n  elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\n  consectetur feugiat sodales.    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\n  ridiculus mus. Aliquam ornare feugiat quam et egestas. Nunc id erat et quam\n  pellentesque lacinia eu vel odio.    Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet\n  quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a\n  ultricies libero efficitur sed.   Mauris dictum mi lacus  Ut sit amet placerat ante  Suspendisse ac eros arcu     Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet\n  rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Sed\n  aliquet, neque at rutrum mollis, neque nisi tincidunt nibh.    Pellentesque eget  var   _extends  ornare tellus, ut gravida mi. var   _extends   =   function ( target )   {     for   ( var   i   =   1 ;   i   <   arguments . length ;   i ++ )   { \n     var   source   =   arguments [ i ]; \n     for   ( var   key   in   source )   { \n       target [ key ]   =   source [ key ]; \n     } \n   } \n   return   target ;  };",
+            "title": "Ordered lists"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#definition-lists",
+            "text": "Lorem ipsum dolor sit amet   Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus\ntellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor\nlobortis orci, at elementum urna sodales vitae. In in vehicula nulla.  Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\nNam vulputate tincidunt fringilla.\nNullam dignissim ultrices urna non auctor.   Cras arcu libero   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin\nut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at\naliquam ac, aliquet sed mauris.",
+            "title": "Definition lists"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#code-blocks",
+            "text": "",
+            "title": "Code blocks"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#inline",
+            "text": "Morbi eget  dapibus felis . Vivamus  venenatis porttitor  tortor sit amet\nrutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,\nper inceptos himenaeos.  Pellentesque aliquet quam enim , eu volutpat urna\nrutrum a.  Nam vehicula nunc  return   target  mauris, a ultricies libero efficitur\nsed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque\neget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.",
+            "title": "Inline"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#listing",
+            "text": "1\n2\n3\n4\n5\n6\n7\n8\n9 var   _extends   =   function ( target )   { \n   for   ( var   i   =   1 ;   i   <   arguments . length ;   i ++ )   { \n     var   source   =   arguments [ i ]; \n     for   ( var   key   in   source )   { \n       target [ key ]   =   source [ key ]; \n     } \n   }     return   target ;  };",
+            "title": "Listing"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#horizontal-rules",
+            "text": "Aenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet\ndui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna\nnon auctor.",
+            "title": "Horizontal rules"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#anotacoes",
+            "text": "Why is there an edit button at the top of every article?  If the  repo_url  is set to a GitHub or BitBucket repository, and the repo_name  is set to  GitHub  or  BitBucket  (implied by default), an\nedit button will appear at the top of every article. This is the automatic\nbehavior that MkDocs implements. See the  MkDocs documentation  on more\nguidance regarding the  edit_uri  attribute, which defines whether the edit\nbutton is shown or not.    Installation on macOS  When you're running the pre-installed version of Python on macOS,  pip \ntries to install packages in a folder for which your user might not have\nthe adequate permissions. There are two possible solutions for this:    Installing in user space  (recommended): Provide the  --user  flag\n  to the install command and  pip  will install the package in a user-site\n  location. This is the recommended way.    Switching to a homebrewed Python : Upgrade your Python installation\n  to a self-contained solution by installing Python with Homebrew. This\n  should eliminate a lot of problems you may be having with  pip .      Error: unrecognized theme 'material'  If you run into this error, the most common reason is that you installed\nMkDocs through some package manager (e.g. Homebrew or  apt-get ) and the\nMaterial theme through  pip , so both packages end up in different\nlocations. MkDocs only checks its install location for themes.    Search language support for Chinese  [lunr-languages][18] currently doesn't include a stemmer for Chinese or\nother Asian languages, but uses the Japanese stemmer, as some users\nreported pretty decent results.",
+            "title": "Anota\u00e7\u00f5es"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#primary-colors",
+            "text": "Default:  indigo   Click on a tile to change the primary color of the theme:  Red  Pink  Purple  Deep Purple  Indigo  Blue  Light Blue  Cyan  Teal  Green  Light Green  Lime  Yellow  Amber  Orange  Deep Orange  Brown  Grey  Blue Grey  White  \n  var buttons = document.querySelectorAll(\"button[data-md-color-primary]\");\n  Array.prototype.forEach.call(buttons, function(button) {\n    button.addEventListener(\"click\", function() {\n      document.body.dataset.mdColorPrimary = this.dataset.mdColorPrimary;\n    })\n  })",
+            "title": "Primary colors"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#accent-colors",
+            "text": "Default:  indigo   Click on a tile to change the accent color of the theme:  Red  Pink  Purple  Deep Purple  Indigo  Blue  Light Blue  Cyan  Teal  Green  Light Green  Lime  Yellow  Amber  Orange  Deep Orange  \n  var buttons = document.querySelectorAll(\"button[data-md-color-accent]\");\n  Array.prototype.forEach.call(buttons, function(button) {\n    button.addEventListener(\"click\", function() {\n      document.body.dataset.mdColorAccent = this.dataset.mdColorAccent;\n    })\n  })",
+            "title": "Accent colors"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#font-family",
+            "text": "Default:  Roboto  and  Roboto Mono   By default the  Roboto font family  is included with the theme, specifically\nthe regular sans-serif type for text and the  monospaced  type for code. Both\nfonts are loaded from  Google Fonts  and can be changed to other fonts,\nlike for example the  Ubuntu font family :  theme : \n   font : \n     text :   'Ubuntu' \n     code :   'Ubuntu   Mono'   The text font will be loaded in weights 400 and  700 , the  monospaced  font\nin regular weight. If you want to load fonts from other destinations or don't\nwant to use the Google Fonts loading magic, just set  font  to  false :  theme : \n   font :   false",
+            "title": "Font family"
+        },
+        {
+            "location": "/Desenvolvimento/Mkdocs/#data-tables",
+            "text": "Sollicitudo / Pellentesi  consectetur  adipiscing  elit  arcu  sed      Vivamus a pharetra  yes  yes  yes  yes  yes    Ornare viverra ex  yes  yes  yes  yes  yes    Mauris a ullamcorper  yes  yes  partial  yes  yes    Nullam urna elit  yes  yes  yes  yes  yes    Malesuada eget finibus  yes  yes  yes  yes  yes    Ullamcorper  yes  yes  yes  yes  yes    Vestibulum sodales  yes  -  yes  -  yes    Pulvinar nisl  yes  yes  yes  -  -    Pharetra aliquet est  yes  yes  yes  yes  yes    Sed suscipit  yes  yes  yes  yes  yes    Orci non pretium  yes  partial  -  -  -     Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\nnon sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\nat elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.     Left  Center  Right      Lorem  dolor  amet    ipsum  sit      Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\nlectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\nsit amet laoreet nibh.  \n   \n     \n     \n   \n   \n     \n       Table \n       with colgroups (Pandoc) \n     \n   \n   \n     \n       Lorem \n       ipsum dolor sit amet. \n     \n     \n       Sed sagittis \n       eleifend rutrum. Donec vitae suscipit est. \n     \n      \n   \n     \n       Available language stemmers \n     \n   \n   \n     \n       da  / Danish \n       du  / Dutch \n       en  / English \n       fi  / Finnish \n     \n     \n       fr  / French \n       de  / German \n       hu  / Hungarian \n       it  / Italian \n     \n     \n       jp  / Japanese \n       no  / Norwegian \n       pt  / Portugese \n       ro  / Romanian \n     \n     \n       ru  / Russian \n       es  / Spanish \n       sv  / Swedish \n       tr  / Turkish",
+            "title": "Data tables"
+        },
+        {
+            "location": "/Django/",
+            "text": "Guia de Instala\u00e7\u00e3o R\u00e1pida\n\u00b6\n\n\n1. Requisitos\n\u00b6\n\n\n\n\nSoftwares\n\n\npython 3.6.4\n\n\npip 9.0.\n\n\n\n\npython -V\npip -V\n\n\n\n\n\n\nInforma\u00e7\u00f5es para Conhecimento\n\n\nConceito: Framework de desenvolvimento WEB escrito em python.\n\n\nDisponibilizado pela primeira vez em Julho de 2015.\n\n\nVers\u00e3o atual: 2.0\n\n\ngithub: \nhttps://github.com/django/django\n\n\n\n\n2. Prepara\u00e7\u00e3o do Ambiente\n\u00b6\n\n\n\n\n\n\nInstalar a \u00faltima vers\u00e3o do \nPython\n.\n\n\n\n\n\n\nEntrar no prompt do msdos \niniciar > executar: cmd <enter>\n e criar a pasta do seu projeto, no exemplo: web_django.\n\n\n\n\n\n\nWINDOWS:\n\n\n1\n2\n3\n4\ncd\\\nc:\\\n\nmkdir web_django\n\ncd\\web_django\n\n\n\n\n\n\n\n\nCriar e entrar na pasta do seu PROJETO.\n\n\n\n\nWINDOWS:\n\n\n1\n2\nmkdir meu_projeto\ncd meu_projeto\n\n\n\n\n\n\n\n\nCriar uma Virtual Env para te isolar do sistema operacional. Ou seja, criar um ambiente virtual onde eu possa ter o Django sem afetar o sistema operacional podendo assim eu trabalhar com m\u00faltiplas vers\u00f5es.\n\n\n\n\nWINDOWS:\n\n\n1\npython -m venv .venv\n\n\n\n\n\n\n\n\n.venv\n\n\nO .venv poderia ser qualquer coisa, exemplo: meuvirtualenv, ou env, ou virtualenv.\n\n\nPor conven\u00e7\u00e3o e boas pr\u00e1ticas \u00e9 muito utilizado o .venv\n\n\n\n\n\n\nPara ativar a Virtual Env, basta executar:\n\n\n\n\nWINDOWS:\n\n\n1\n.\\venv\\Scripts\\activate\n\n\n\n\n\n\n\n\nDeixando o activate automatizado\n\n\nCrie o arquivo activate.bat na raiz do seu projeto\n\n\nWINDOWS:\n\n\ncopy con activate.bat\n e \nenter\n e digite o conte\u00fado abaixo:\n\n\n1\n.venv\\Scripts\\activate.bat\n\n\n\n\n\n\nPressione a tecla \nF6\n e depois \nenter\n para salvar.\n\n\nEntre no > diret\u00f3rio: \ncd .venv\\Scripts\n\n\nDigite: \ncopy con manage.bat\n e \nenter\n e digite o conte\u00fado abaixo:\n\n\n1\n@python \"%VIRTUAL_ENV%\\..\\manage.py\" %*\n\n\n\n\n\n\nPressione a tecla \nF6\n e depois \nenter\n para salvar.\n\n\nPronto, agora para ativar o Virtual Env, basta voc\u00ea digitar: \nactivate\n na raiz do seu projeto e para executar o ARTISAN do Python (manage.py), basta digitar: \nmanage <instru\u00e7\u00f5es de comando>\n.\n\n\n\n\n\n\nActivate / Deactivate Virtual Env\n\n\nPara entrar, uma vez feito o processo de automa\u00e7\u00e3o acima: \nactivate.bat\n ou caso n\u00e3o queira fazer: \n.venv\\Scripts\\activate\n e voc\u00ea notar\u00e1 que no seu prompt ser\u00e1 adicionado o (.venv) na frente do path.\n\n\nPara sair da Virtual Env do seu projeto, basta digitar o > comando: \ndeactivate\n e voc\u00ea notar\u00e1 que ser\u00e1 removido o (.venv) do path.\n\n\n\n\n\n\nVirtual Env\n\n\nPara voc\u00ea saber se o virtual env est\u00e1 ativo, basta ver se na frente do seu path no prompt est\u00e1 o escrito: \n(.venv)\n, exemplo: \n(.venv) c:\\web_django\\meu_projeto\n\n\nCaso n\u00e3o esteja, basta ativar conforme a instru\u00e7\u00e3o acima: \nactivate\n.\n\n\n\n\n2.1. Instalando o Django \n.venv\n\u00b6\n\n\nEstando na pasta do seu projeto com o Virtual Env ativo (.venv): \n(.venv) c:\\web_django\\meu_projeto\n\n\n1\npip install django\n\n\n\n\n\n\n\n\nEu posso instalar o django N\u00c3O estando na minha virtual env?\n\n\nN\u00e3o, o correto \u00e9 voc\u00ea instalar o seu django na sua virtual env criada. Ent\u00e3o esteja sempre com ela ativa.\n\n\n\n\n\n\nVerificando a vers\u00e3o do django instalada\n\n\nWINDOWS:\n\n\n1\n2\n3\npython\nimport django\ndjango.VERSION\n\n\n\n\n\n\nSair\u00e1 algo do tipo:\n\n\n1\n2\n3\n  >>> import django\n  >>> django.VERSION\n  (2, 0, 3, 'final', 0)\n\n\n\n\n\n\nDigite exit() e \nenter\n para sair\n\n\n1\nexit()\n\n\n\n\n\n\n\n\n\n\nVerificando os pacotes instalados at\u00e9 o presente momento no .venv\n\n\nPara voc\u00ea saber o que foi instalado at\u00e9 o presente momento, basta digitar o comando: \npip freeze\n.\n\n\nVoc\u00ea dever\u00e1 ter algo como do tipo:\n\n\n1\n2\nDjango==2.0.3\npytz==2018.3\n\n\n\n\n\n\n\n\n2.2. Criando o nosso projeto em Django\n\u00b6\n\n\n1\ndjango-admin startproject api .\n\n\n\n\n\n\n\n\n\u00c9 importante digitar o ponto (.)?\n\n\n\u00c9 importante digitar o ponto (.) para evitar que o admin do django crie uma pasta dentro da outra com o mesmo nome.\n\n\n\n\n\n\nEstrutura de Arquivos\n\n\ninit\n.py : significa que tudo que estiver dentro da pasta \u00e9 um pacote pai.\n\n\nsettings.py : arquivo mais importante do django.\n\n\nurls.py     : arquivo de rotas do django.\n\n\nwsgi.py     : arquivo que utilizamos para ser o entrypoint da aplica\u00e7\u00e3o. Ser\u00e1 aonde iremos configurar o servidor e os arquivos est\u00e1ticos. Bom lembrar que o django n\u00e3o cuida dos arquivos est\u00e1ticos.\n\n\n\n\n\n\n2.3. Iniciando a nossa primeira aplica\u00e7\u00e3o em Django\n\u00b6\n\n\n1\nmanage startapp core\n\n\n\n\n\n\n2.4. NPM do Django (pipenv)\n\u00b6\n\n\n\u00c9 muito importante dizer que temos hoje o pipenv que ser\u00e1 respons\u00e1vel para separar para n\u00f3s o que \u00e9 lib de produ\u00e7\u00e3o e lib de desenvolvimento, muito semelhante ao que o NPM do nodejs faz.\n\n\n\u00c9 muito recomend\u00e1vel que nos pr\u00f3ximos passos a seguir, utilizemos o pipenv para gerenciar os pacotes, pois poderemos especificar o que \u00e9 depend\u00eancia de desenvolvimento e depend\u00eancia de produ\u00e7\u00e3o.\n\n\ngithub: \nhttps://github.com/pypa/pipenv\n\n\nInstala todas as depend\u00eancias para o projeto (excluindo as dev)\npipenv clean\n\nInstala todas as depend\u00eancias para o projeto (excluindo as dev)\npipenv install\n\nInstala todas as depend\u00eancias para o projeto (inclusive as dev)\npipenv install --dev\n\nVerifica as depend\u00eancias de seguran\u00e7a e vulnerabilidades\npipenv check\n\nGera o arquivo Pipfilelock\npipenv lock\n\n\n\n\n2.5. Instalando algumas depend\u00eancias\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n# Mysql\npipenv install mysqlclient\n\n# Libs para se criar o arquivo de ambiente .env\npipenv install python-decouple\npipenv install dj-database-url\n\n# lib para se trabalhar com api no django\npipenv install djangorestframework\npipenv install django-rest-auth\npipenv install django-filter\npipenv install django-cors-headers\npipenv install django-extensions\n\n# lib para gerar logs do sql gerado\npipenv install sqlformatter\n\n# Notebook ipython\npipenv install notebook --dev\npipenv install \"ipython[notebook]\" --dev\n\n\n\n\n\n\n2.6. Rodando o shell_plus para executar comandos python\n\u00b6\n\n\nPara ativar o \nshell_plus\n, basta jogar em \nINSTALLED_APPS\n no arquivo \nsettings.py\n o \n'django_extensions'\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n    \nINSTALLED_APPS\n \n=\n \n[\n\n    \n'django.contrib.admin'\n,\n\n    \n'django.contrib.auth'\n,\n\n    \n'django.contrib.contenttypes'\n,\n\n    \n'django.contrib.sessions'\n,\n\n    \n'django.contrib.messages'\n,\n\n    \n'django.contrib.staticfiles'\n,\n\n    \n'django_extensions'\n\n\n]\n\n\n\n\n\n\n\nExecutando via console:\n\n\n1\nmanage shell_plus\n\n\n\n\n\n\nExecutando via browser:\n\n\n1\n2\n3\nmanage shell_plus --notebook\nObs: aqui dever\u00e1 abrir uma url com o token, algo semelhante a:\nhttp://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21\n\n\n\n\n\n\n\n\nClique em \nNew\n e depois em Django Shell-Plus\n\n\n\n\nPara usar \u00e9 super simples:\n  \nenter\n : Pula linha\n  \nshift-enter\n : Executa o comando\n\n\n\n\n\n\nShell_Plus\n\n\n\"Para sair do shell_plus via console, \u00e9 s\u00f3 digitar: \nexit()\n e pressionar \nenter\n e para sair do shell_plus via browser, quero dizer, parar o servi\u00e7o, basta ir no console que estiver executando e pressionar: \nctrl+c\n\n\n\n\n2.7. Configurando idioma no \nsettings.py\n\u00b6\n\n\nAonde voc\u00ea tem:\n\n\nLANGUAGE_CODE\n \n=\n \n'en-us'\n\n\nTIME_ZONE\n \n=\n \n'UTC'\n\n\n\n\n\nSubstituia por:\n\n\nLANGUAGE_CODE\n \n=\n \n'pt-br'\n\n\nTIME_ZONE\n \n=\n \n'America/Sao_Paulo'\n\n\n\n\n\n2.8. Criando um arquivo .env e profissionalizando a estrutura\n\u00b6\n\n\n\u00c9 muito importante para termos uma estrutura mais profissional separarmos as configura\u00e7\u00f5es de ambiente de configura\u00e7\u00f5es do projeto. Para isso usaremos da pr\u00e1tica de se criar um arquivo \n.env\n na raiz do projeto onde dever\u00e1 conter as minhas configura\u00e7\u00f5es.\n\n\nUtilizaremos de uma lib criado pelo Henrique Bastos (welcomethedjango : refer\u00eancia de curso na \u00e1rea) chamada python-decouple e tamb\u00e9m da lib dj-database-url.\n\n\n\n\nCrie o arquivo: \n.env\n na raiz do projeto com o seguinte conte\u00fado\n\n\n\n\n# Pegue a sua SECRET_KEY j\u00e1 criada ou gere outra hash\n\n\nSECRET_KEY\n=\n_fcu\n!\n1\n-\nn\n$\n76\n+\n@v\n=\nv4u9y68\n)\nz\n!\n)\nx0\n%\n8\nhj\n!\n51\n#k$+o)05gkgq40e\n\n\nDEBUG\n=\nTrue\n\n\nALLOWED_HOSTS\n=\n127.0\n.\n0.1\n,\n.\nlocalhost\n\n\nDATABASE_URL\n=\nmysql\n:\n//\nseu_usuario\n:\nsua_senha\n@localhost\n:\n3306\n/\nnomedobancoprincipal\n\n\nDATABASE_SECUNDARIO\n=\nmysql\n:\n//\nseu_usuario\n:\nsua_senha\n@localhost\n:\n3306\n/\nnomedobancosecundario\n\n\nLANGUAGE_CODE\n=\npt\n-\nbr\n\n\nTIME_ZONE\n=\nAmerica\n/\nSao_Paulo\n\n\nUSE_I18N\n=\nTrue\n\n\nUSE_L10N\n=\nTrue\n\n\nUSE_TZ\n=\nTrue\n\n\n\n\n\n\n\nAbra o arquivo \nsettings.py\n e adicione logo ap\u00f3s a \nlinha 13 : import os\n o seguinte conte\u00fado:\n\n\n\n\nsettings.py\n\n\nfrom\n \ndecouple\n \nimport\n \nconfig\n,\n \nCsv\n\n\nfrom\n \ndj_database_url\n \nimport\n \nparse\n\n\n\n\n\n\nSubstitua o conte\u00fado abaixo de forma que fique agora din\u00e2mico:\n\n\n\n\nsettings.py\n\n\n# SECURITY WARNING: keep the secret key used in production secret!\n\n\nSECRET_KEY\n \n=\n \nconfig\n(\n'SECRET_KEY'\n)\n\n\n\n# SECURITY WARNING: don't run with debug turned on in production!\n\n\nDEBUG\n \n=\n \nconfig\n(\n'DEBUG'\n,\n \ncast\n=\nbool\n,\n \ndefault\n=\nFalse\n)\n\n\n\nALLOWED_HOSTS\n \n=\n \nconfig\n(\n'ALLOWED_HOSTS'\n,\n \ncast\n=\nCsv\n(),\n \ndefault\n=\n[])\n\n\n\n# Database\n\n\n# https://docs.djangoproject.com/en/2.0/ref/settings/#databases\n\n\n\nDATABASES\n \n=\n \ndict\n()\n\n\nDATABASES\n[\n'default'\n]\n \n=\n \nconfig\n(\n'DATABASE_URL'\n,\n \ncast\n=\nparse\n,\n \ndefault\n=\n'sqlite:///'\n \n+\n \nos\n.\npath\n.\njoin\n(\nBASE_DIR\n,\n \n'db.sqlite3'\n))\n\n\n# Usarei aqui: farsoft, mas voc\u00ea pode usar o nome que quiser\n\n\nDATABASES\n[\n'farsoft'\n]\n \n=\n \nconfig\n(\n'DATABASE_SECUNDARIO'\n,\n \ncast\n=\nparse\n)\n\n\n\nLANGUAGE_CODE\n \n=\n \nconfig\n(\n'LANGUAGE_CODE'\n,\n \ndefault\n=\n'pt-br'\n)\n\n\n\n# Internationalization\n\n\n# https://docs.djangoproject.com/en/2.0/topics/i18n/\n\n\n\nTIME_ZONE\n \n=\n \nconfig\n(\n'TIME_ZONE'\n,\n \ndefault\n=\n'UTC'\n)\n\n\n\nUSE_I18N\n \n=\n \nconfig\n(\n'USE_I18N'\n,\n \ndefault\n=\nTrue\n,\n \ncast\n=\nbool\n)\n\n\n\nUSE_L10N\n \n=\n \nconfig\n(\n'USE_L10N'\n,\n \ndefault\n=\nTrue\n,\n \ncast\n=\nbool\n)\n\n\n\nUSE_TZ\n \n=\n \nconfig\n(\n'USE_TZ'\n,\n \ndefault\n=\nTrue\n,\n \ncast\n=\nbool\n)\n\n\n\n\nAproveitando, voc\u00ea pode deixar o settings.py ainda mais profissional, para isso vamos separar os INSTALLED_APPS por DJANGO_APPS, THIRD_APPS, LOCAL_APPS.\n\n\nsettings.py\n\n\n# Application definition\n\n\n\n# Libs padr\u00e3o quem vem com a instala\u00e7\u00e3o do Django\n\n\nDJANGO_APPS\n \n=\n \n[\n\n    \n'django.contrib.admin'\n,\n\n    \n'django.contrib.auth'\n,\n\n    \n'django.contrib.contenttypes'\n,\n\n    \n'django.contrib.sessions'\n,\n\n    \n'django.contrib.messages'\n,\n\n    \n'django.contrib.staticfiles'\n,\n\n\n]\n\n\n\n# Libs de Terceiros\n\n\nTHIRD_APPS\n \n=\n \n[\n\n    \n'django_extensions'\n,\n\n    \n'rest_framework'\n,\n\n    \n'rest_framework.authtoken'\n,\n\n    \n'rest_auth'\n,\n\n    \n'corsheaders'\n,\n\n\n]\n\n\n\n# Apps locais que criarmos\n\n\nLOCAL_APPS\n \n=\n \n[\n\n    \n'api.core'\n,\n\n\n]\n\n\n\nINSTALLED_APPS\n \n=\n \nDJANGO_APPS\n \n+\n \nTHIRD_APPS\n \n+\n \nLOCAL_APPS",
+            "title": "Guia de Instala\u00e7\u00e3o R\u00e1pida"
+        },
+        {
+            "location": "/Django/#guia-de-instalacao-rapida",
+            "text": "",
+            "title": "Guia de Instala\u00e7\u00e3o R\u00e1pida"
+        },
+        {
+            "location": "/Django/#1-requisitos",
+            "text": "Softwares  python 3.6.4  pip 9.0.   python -V\npip -V   Informa\u00e7\u00f5es para Conhecimento  Conceito: Framework de desenvolvimento WEB escrito em python.  Disponibilizado pela primeira vez em Julho de 2015.  Vers\u00e3o atual: 2.0  github:  https://github.com/django/django",
+            "title": "1. Requisitos"
+        },
+        {
+            "location": "/Django/#2-preparacao-do-ambiente",
+            "text": "Instalar a \u00faltima vers\u00e3o do  Python .    Entrar no prompt do msdos  iniciar > executar: cmd <enter>  e criar a pasta do seu projeto, no exemplo: web_django.    WINDOWS:  1\n2\n3\n4 cd\\\nc:\\ mkdir web_django cd\\web_django    Criar e entrar na pasta do seu PROJETO.   WINDOWS:  1\n2 mkdir meu_projeto\ncd meu_projeto    Criar uma Virtual Env para te isolar do sistema operacional. Ou seja, criar um ambiente virtual onde eu possa ter o Django sem afetar o sistema operacional podendo assim eu trabalhar com m\u00faltiplas vers\u00f5es.   WINDOWS:  1 python -m venv .venv    .venv  O .venv poderia ser qualquer coisa, exemplo: meuvirtualenv, ou env, ou virtualenv.  Por conven\u00e7\u00e3o e boas pr\u00e1ticas \u00e9 muito utilizado o .venv    Para ativar a Virtual Env, basta executar:   WINDOWS:  1 .\\venv\\Scripts\\activate    Deixando o activate automatizado  Crie o arquivo activate.bat na raiz do seu projeto  WINDOWS:  copy con activate.bat  e  enter  e digite o conte\u00fado abaixo:  1 .venv\\Scripts\\activate.bat   Pressione a tecla  F6  e depois  enter  para salvar.  Entre no > diret\u00f3rio:  cd .venv\\Scripts  Digite:  copy con manage.bat  e  enter  e digite o conte\u00fado abaixo:  1 @python \"%VIRTUAL_ENV%\\..\\manage.py\" %*   Pressione a tecla  F6  e depois  enter  para salvar.  Pronto, agora para ativar o Virtual Env, basta voc\u00ea digitar:  activate  na raiz do seu projeto e para executar o ARTISAN do Python (manage.py), basta digitar:  manage <instru\u00e7\u00f5es de comando> .    Activate / Deactivate Virtual Env  Para entrar, uma vez feito o processo de automa\u00e7\u00e3o acima:  activate.bat  ou caso n\u00e3o queira fazer:  .venv\\Scripts\\activate  e voc\u00ea notar\u00e1 que no seu prompt ser\u00e1 adicionado o (.venv) na frente do path.  Para sair da Virtual Env do seu projeto, basta digitar o > comando:  deactivate  e voc\u00ea notar\u00e1 que ser\u00e1 removido o (.venv) do path.    Virtual Env  Para voc\u00ea saber se o virtual env est\u00e1 ativo, basta ver se na frente do seu path no prompt est\u00e1 o escrito:  (.venv) , exemplo:  (.venv) c:\\web_django\\meu_projeto  Caso n\u00e3o esteja, basta ativar conforme a instru\u00e7\u00e3o acima:  activate .",
+            "title": "2. Prepara\u00e7\u00e3o do Ambiente"
+        },
+        {
+            "location": "/Django/#21-instalando-o-django-venv",
+            "text": "Estando na pasta do seu projeto com o Virtual Env ativo (.venv):  (.venv) c:\\web_django\\meu_projeto  1 pip install django    Eu posso instalar o django N\u00c3O estando na minha virtual env?  N\u00e3o, o correto \u00e9 voc\u00ea instalar o seu django na sua virtual env criada. Ent\u00e3o esteja sempre com ela ativa.    Verificando a vers\u00e3o do django instalada  WINDOWS:  1\n2\n3 python\nimport django\ndjango.VERSION   Sair\u00e1 algo do tipo:  1\n2\n3   >>> import django\n  >>> django.VERSION\n  (2, 0, 3, 'final', 0)   Digite exit() e  enter  para sair  1 exit()     Verificando os pacotes instalados at\u00e9 o presente momento no .venv  Para voc\u00ea saber o que foi instalado at\u00e9 o presente momento, basta digitar o comando:  pip freeze .  Voc\u00ea dever\u00e1 ter algo como do tipo:  1\n2 Django==2.0.3\npytz==2018.3",
+            "title": "2.1. Instalando o Django .venv"
+        },
+        {
+            "location": "/Django/#22-criando-o-nosso-projeto-em-django",
+            "text": "1 django-admin startproject api .    \u00c9 importante digitar o ponto (.)?  \u00c9 importante digitar o ponto (.) para evitar que o admin do django crie uma pasta dentro da outra com o mesmo nome.    Estrutura de Arquivos  init .py : significa que tudo que estiver dentro da pasta \u00e9 um pacote pai.  settings.py : arquivo mais importante do django.  urls.py     : arquivo de rotas do django.  wsgi.py     : arquivo que utilizamos para ser o entrypoint da aplica\u00e7\u00e3o. Ser\u00e1 aonde iremos configurar o servidor e os arquivos est\u00e1ticos. Bom lembrar que o django n\u00e3o cuida dos arquivos est\u00e1ticos.",
+            "title": "2.2. Criando o nosso projeto em Django"
+        },
+        {
+            "location": "/Django/#23-iniciando-a-nossa-primeira-aplicacao-em-django",
+            "text": "1 manage startapp core",
+            "title": "2.3. Iniciando a nossa primeira aplica\u00e7\u00e3o em Django"
+        },
+        {
+            "location": "/Django/#24-npm-do-django-pipenv",
+            "text": "\u00c9 muito importante dizer que temos hoje o pipenv que ser\u00e1 respons\u00e1vel para separar para n\u00f3s o que \u00e9 lib de produ\u00e7\u00e3o e lib de desenvolvimento, muito semelhante ao que o NPM do nodejs faz.  \u00c9 muito recomend\u00e1vel que nos pr\u00f3ximos passos a seguir, utilizemos o pipenv para gerenciar os pacotes, pois poderemos especificar o que \u00e9 depend\u00eancia de desenvolvimento e depend\u00eancia de produ\u00e7\u00e3o.  github:  https://github.com/pypa/pipenv  Instala todas as depend\u00eancias para o projeto (excluindo as dev)\npipenv clean\n\nInstala todas as depend\u00eancias para o projeto (excluindo as dev)\npipenv install\n\nInstala todas as depend\u00eancias para o projeto (inclusive as dev)\npipenv install --dev\n\nVerifica as depend\u00eancias de seguran\u00e7a e vulnerabilidades\npipenv check\n\nGera o arquivo Pipfilelock\npipenv lock",
+            "title": "2.4. NPM do Django (pipenv)"
+        },
+        {
+            "location": "/Django/#25-instalando-algumas-dependencias",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20 # Mysql\npipenv install mysqlclient\n\n# Libs para se criar o arquivo de ambiente .env\npipenv install python-decouple\npipenv install dj-database-url\n\n# lib para se trabalhar com api no django\npipenv install djangorestframework\npipenv install django-rest-auth\npipenv install django-filter\npipenv install django-cors-headers\npipenv install django-extensions\n\n# lib para gerar logs do sql gerado\npipenv install sqlformatter\n\n# Notebook ipython\npipenv install notebook --dev\npipenv install \"ipython[notebook]\" --dev",
+            "title": "2.5. Instalando algumas depend\u00eancias"
+        },
+        {
+            "location": "/Django/#26-rodando-o-shell_plus-para-executar-comandos-python",
+            "text": "Para ativar o  shell_plus , basta jogar em  INSTALLED_APPS  no arquivo  settings.py  o  'django_extensions'  1\n2\n3\n4\n5\n6\n7\n8\n9      INSTALLED_APPS   =   [ \n     'django.contrib.admin' , \n     'django.contrib.auth' , \n     'django.contrib.contenttypes' , \n     'django.contrib.sessions' , \n     'django.contrib.messages' , \n     'django.contrib.staticfiles' , \n     'django_extensions'  ]    Executando via console:  1 manage shell_plus   Executando via browser:  1\n2\n3 manage shell_plus --notebook\nObs: aqui dever\u00e1 abrir uma url com o token, algo semelhante a:\nhttp://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21    Clique em  New  e depois em Django Shell-Plus   Para usar \u00e9 super simples:\n   enter  : Pula linha\n   shift-enter  : Executa o comando    Shell_Plus  \"Para sair do shell_plus via console, \u00e9 s\u00f3 digitar:  exit()  e pressionar  enter  e para sair do shell_plus via browser, quero dizer, parar o servi\u00e7o, basta ir no console que estiver executando e pressionar:  ctrl+c",
+            "title": "2.6. Rodando o shell_plus para executar comandos python"
+        },
+        {
+            "location": "/Django/#27-configurando-idioma-no-settingspy",
+            "text": "Aonde voc\u00ea tem:  LANGUAGE_CODE   =   'en-us'  TIME_ZONE   =   'UTC'   Substituia por:  LANGUAGE_CODE   =   'pt-br'  TIME_ZONE   =   'America/Sao_Paulo'",
+            "title": "2.7. Configurando idioma no settings.py"
+        },
+        {
+            "location": "/Django/#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura",
+            "text": "\u00c9 muito importante para termos uma estrutura mais profissional separarmos as configura\u00e7\u00f5es de ambiente de configura\u00e7\u00f5es do projeto. Para isso usaremos da pr\u00e1tica de se criar um arquivo  .env  na raiz do projeto onde dever\u00e1 conter as minhas configura\u00e7\u00f5es.  Utilizaremos de uma lib criado pelo Henrique Bastos (welcomethedjango : refer\u00eancia de curso na \u00e1rea) chamada python-decouple e tamb\u00e9m da lib dj-database-url.   Crie o arquivo:  .env  na raiz do projeto com o seguinte conte\u00fado   # Pegue a sua SECRET_KEY j\u00e1 criada ou gere outra hash  SECRET_KEY = _fcu ! 1 - n $ 76 + @v = v4u9y68 ) z ! ) x0 % 8 hj ! 51 #k$+o)05gkgq40e  DEBUG = True  ALLOWED_HOSTS = 127.0 . 0.1 , . localhost  DATABASE_URL = mysql : // seu_usuario : sua_senha @localhost : 3306 / nomedobancoprincipal  DATABASE_SECUNDARIO = mysql : // seu_usuario : sua_senha @localhost : 3306 / nomedobancosecundario  LANGUAGE_CODE = pt - br  TIME_ZONE = America / Sao_Paulo  USE_I18N = True  USE_L10N = True  USE_TZ = True    Abra o arquivo  settings.py  e adicione logo ap\u00f3s a  linha 13 : import os  o seguinte conte\u00fado:   settings.py  from   decouple   import   config ,   Csv  from   dj_database_url   import   parse    Substitua o conte\u00fado abaixo de forma que fique agora din\u00e2mico:   settings.py  # SECURITY WARNING: keep the secret key used in production secret!  SECRET_KEY   =   config ( 'SECRET_KEY' )  # SECURITY WARNING: don't run with debug turned on in production!  DEBUG   =   config ( 'DEBUG' ,   cast = bool ,   default = False )  ALLOWED_HOSTS   =   config ( 'ALLOWED_HOSTS' ,   cast = Csv (),   default = [])  # Database  # https://docs.djangoproject.com/en/2.0/ref/settings/#databases  DATABASES   =   dict ()  DATABASES [ 'default' ]   =   config ( 'DATABASE_URL' ,   cast = parse ,   default = 'sqlite:///'   +   os . path . join ( BASE_DIR ,   'db.sqlite3' ))  # Usarei aqui: farsoft, mas voc\u00ea pode usar o nome que quiser  DATABASES [ 'farsoft' ]   =   config ( 'DATABASE_SECUNDARIO' ,   cast = parse )  LANGUAGE_CODE   =   config ( 'LANGUAGE_CODE' ,   default = 'pt-br' )  # Internationalization  # https://docs.djangoproject.com/en/2.0/topics/i18n/  TIME_ZONE   =   config ( 'TIME_ZONE' ,   default = 'UTC' )  USE_I18N   =   config ( 'USE_I18N' ,   default = True ,   cast = bool )  USE_L10N   =   config ( 'USE_L10N' ,   default = True ,   cast = bool )  USE_TZ   =   config ( 'USE_TZ' ,   default = True ,   cast = bool )   Aproveitando, voc\u00ea pode deixar o settings.py ainda mais profissional, para isso vamos separar os INSTALLED_APPS por DJANGO_APPS, THIRD_APPS, LOCAL_APPS.  settings.py  # Application definition  # Libs padr\u00e3o quem vem com a instala\u00e7\u00e3o do Django  DJANGO_APPS   =   [ \n     'django.contrib.admin' , \n     'django.contrib.auth' , \n     'django.contrib.contenttypes' , \n     'django.contrib.sessions' , \n     'django.contrib.messages' , \n     'django.contrib.staticfiles' ,  ]  # Libs de Terceiros  THIRD_APPS   =   [ \n     'django_extensions' , \n     'rest_framework' , \n     'rest_framework.authtoken' , \n     'rest_auth' , \n     'corsheaders' ,  ]  # Apps locais que criarmos  LOCAL_APPS   =   [ \n     'api.core' ,  ]  INSTALLED_APPS   =   DJANGO_APPS   +   THIRD_APPS   +   LOCAL_APPS",
+            "title": "2.8. Criando um arquivo .env e profissionalizando a estrutura"
+        },
+        {
+            "location": "/Javascript/",
             "text": "Javascript\n\u00b6",
             "title": "Javascript"
         },
         {
-            "location": "/Desenvolvimento/Javascript/#javascript",
+            "location": "/Javascript/#javascript",
             "text": "",
             "title": "Javascript"
-        },
-        {
-            "location": "/Desenvolvimento/PHP/",
-            "text": "PHP\n\u00b6",
-            "title": "PHP"
-        },
-        {
-            "location": "/Desenvolvimento/PHP/#php",
-            "text": "",
-            "title": "PHP"
-        },
-        {
-            "location": "/Desenvolvimento/Python/",
-            "text": "Python\n\u00b6",
-            "title": "Python"
-        },
-        {
-            "location": "/Desenvolvimento/Python/#python",
-            "text": "",
-            "title": "Python"
-        },
-        {
-            "location": "/Desenvolvimento/Vuejs/",
-            "text": "Vuejs\n\u00b6",
-            "title": "Vuejs"
-        },
-        {
-            "location": "/Desenvolvimento/Vuejs/#vuejs",
-            "text": "",
-            "title": "Vuejs"
         },
         {
             "location": "/Links-Top/",
@@ -114,6 +289,36 @@
             "location": "/Links-Top/#django_mkdocs",
             "text": "https://www.hacksoft.io/blog/integrating-a-password-protected-mkdocs-in-django/  https://github.com/farnetani/django_mkdocs",
             "title": "django_mkdocs"
+        },
+        {
+            "location": "/PHP/",
+            "text": "PHP\n\u00b6",
+            "title": "PHP"
+        },
+        {
+            "location": "/PHP/#php",
+            "text": "",
+            "title": "PHP"
+        },
+        {
+            "location": "/Python/",
+            "text": "Python\n\u00b6",
+            "title": "Python"
+        },
+        {
+            "location": "/Python/#python",
+            "text": "",
+            "title": "Python"
+        },
+        {
+            "location": "/Vuejs/",
+            "text": "Vuejs\n\u00b6",
+            "title": "Vuejs"
+        },
+        {
+            "location": "/Vuejs/#vuejs",
+            "text": "",
+            "title": "Vuejs"
         },
         {
             "location": "/wgalleti.github.io/desenvolvimento/angular/",

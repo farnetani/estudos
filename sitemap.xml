@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://squidfunk.github.io/mkdocs-material//</loc>
-     <lastmod>2018-03-18</lastmod>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>https://squidfunk.github.io/mkdocs-material//sobre/</loc>
-     <lastmod>2018-03-18</lastmod>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -30,38 +30,38 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
+     <loc>https://squidfunk.github.io/mkdocs-material//Delphi/</loc>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+        
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
+     <loc>https://squidfunk.github.io/mkdocs-material//Desenvolvimento/Mkdocs/</loc>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+        
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/</loc>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
-    <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+    
+
+    
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
-     <lastmod></lastmod>
+     <loc>https://squidfunk.github.io/mkdocs-material//Javascript/</loc>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -71,7 +71,37 @@
         
     <url>
      <loc>https://squidfunk.github.io/mkdocs-material//Links-Top/</loc>
-     <lastmod>2018-03-18</lastmod>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//PHP/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Python/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Vuejs/</loc>
+     <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

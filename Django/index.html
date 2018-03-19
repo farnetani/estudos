@@ -13,7 +13,7 @@
         <meta name="description" content="Documentação Pessoal de Arlei F. Farnetani Junior">
       
       
-        <link rel="canonical" href="https://squidfunk.github.io/mkdocs-material/sobre/">
+        <link rel="canonical" href="https://squidfunk.github.io/mkdocs-material/Django/">
       
       
         <meta name="author" content="Martin Donath">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Sobre - MkDocs Farnetani</title>
+        <title>Guia de Instalação Rápida - MkDocs Farnetani</title>
       
     
     
@@ -99,7 +99,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#sobre" tabindex="1" class="md-skip">
+      <a href="#guia-de-instalacao-rapida" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -125,7 +125,7 @@
                 MkDocs Farnetani
               </span>
               <span class="md-header-nav__topic">
-                Sobre
+                Guia de Instalação Rápida
               </span>
             
           
@@ -197,14 +197,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href=".." title="Arlei F. Farnetani Junior" class="md-tabs__link md-tabs__link--active">
+      <a href=".." title="Arlei F. Farnetani Junior" class="md-tabs__link">
         Arlei F. Farnetani Junior
       </a>
     
@@ -263,7 +265,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../Django/" title="Django" class="md-tabs__link">
+        <a href="./" title="Django" class="md-tabs__link md-tabs__link--active">
           Django
         </a>
       
@@ -422,20 +424,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="./" title="Sobre" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../sobre/" title="Sobre" class="md-nav__link">
       Sobre
     </a>
-    
   </li>
 
     
@@ -483,8 +476,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../Administra%C3%A7%C3%A3o/Produtividade/" title="Home" class="md-nav__link">
-      Home
+    <a href="../Administra%C3%A7%C3%A3o/Produtividade/" title="Produtividade" class="md-nav__link">
+      Produtividade
     </a>
   </li>
 
@@ -524,8 +517,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../Delphi/" title="Home" class="md-nav__link">
-      Home
+    <a href="../Delphi/" title="Delphi" class="md-nav__link">
+      Delphi
     </a>
   </li>
 
@@ -560,8 +553,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../Desenvolvimento/Mkdocs/" title="Mkdocs" class="md-nav__link">
-      Mkdocs
+    <a href="../Desenvolvimento/Mkdocs/" title="Usando Mkdocs Material" class="md-nav__link">
+      Usando Mkdocs Material
     </a>
   </li>
 
@@ -575,10 +568,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Django
@@ -594,11 +589,118 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../Django/" title="Home" class="md-nav__link">
-      Home
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Guia de Instalação Rápida
+      </label>
+    
+    <a href="./" title="Guia de Instalação Rápida" class="md-nav__link md-nav__link--active">
+      Guia de Instalação Rápida
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-requisitos" title="1. Requisitos" class="md-nav__link">
+    1. Requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-preparacao-do-ambiente" title="2. Preparação do Ambiente" class="md-nav__link">
+    2. Preparação do Ambiente
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-instalando-o-django-venv" title="2.1. Instalando o Django .venv" class="md-nav__link">
+    2.1. Instalando o Django .venv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-criando-o-nosso-projeto-em-django" title="2.2. Criando o nosso projeto em Django" class="md-nav__link">
+    2.2. Criando o nosso projeto em Django
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-iniciando-a-nossa-primeira-aplicacao-em-django" title="2.3. Iniciando a nossa primeira aplicação em Django" class="md-nav__link">
+    2.3. Iniciando a nossa primeira aplicação em Django
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-npm-do-django-pipenv" title="2.4. NPM do Django (pipenv)" class="md-nav__link">
+    2.4. NPM do Django (pipenv)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-instalando-algumas-dependencias" title="2.5. Instalando algumas dependências" class="md-nav__link">
+    2.5. Instalando algumas dependências
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-rodando-o-shell_plus-para-executar-comandos-python" title="2.6. Rodando o shell_plus para executar comandos python" class="md-nav__link">
+    2.6. Rodando o shell_plus para executar comandos python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-configurando-idioma-no-settingspy" title="2.7. Configurando idioma no settings.py" class="md-nav__link">
+    2.7. Configurando idioma no settings.py
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="2.8. Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
+    2.8. Criando um arquivo .env e profissionalizando a estrutura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1440,6 +1542,91 @@
     
   
   
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-requisitos" title="1. Requisitos" class="md-nav__link">
+    1. Requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-preparacao-do-ambiente" title="2. Preparação do Ambiente" class="md-nav__link">
+    2. Preparação do Ambiente
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-instalando-o-django-venv" title="2.1. Instalando o Django .venv" class="md-nav__link">
+    2.1. Instalando o Django .venv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-criando-o-nosso-projeto-em-django" title="2.2. Criando o nosso projeto em Django" class="md-nav__link">
+    2.2. Criando o nosso projeto em Django
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-iniciando-a-nossa-primeira-aplicacao-em-django" title="2.3. Iniciando a nossa primeira aplicação em Django" class="md-nav__link">
+    2.3. Iniciando a nossa primeira aplicação em Django
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-npm-do-django-pipenv" title="2.4. NPM do Django (pipenv)" class="md-nav__link">
+    2.4. NPM do Django (pipenv)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-instalando-algumas-dependencias" title="2.5. Instalando algumas dependências" class="md-nav__link">
+    2.5. Instalando algumas dependências
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-rodando-o-shell_plus-para-executar-comandos-python" title="2.6. Rodando o shell_plus para executar comandos python" class="md-nav__link">
+    2.6. Rodando o shell_plus para executar comandos python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-configurando-idioma-no-settingspy" title="2.7. Configurando idioma no settings.py" class="md-nav__link">
+    2.7. Configurando idioma no settings.py
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="2.8. Criando um arquivo .env e profissionalizando a estrutura" class="md-nav__link">
+    2.8. Criando um arquivo .env e profissionalizando a estrutura
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1451,9 +1638,383 @@
               
                 
                 
-                <h1 id="sobre">Sobre<a class="headerlink" href="#sobre" title="Permanent link">&para;</a></h1>
-<div class="codehilite"><pre><span></span>* Arlei Ferreira Farnetani Junior
+                <h1 id="guia-de-instalacao-rapida">Guia de Instalação Rápida<a class="headerlink" href="#guia-de-instalacao-rapida" title="Permanent link">&para;</a></h1>
+<h2 id="1-requisitos">1. Requisitos<a class="headerlink" href="#1-requisitos" title="Permanent link">&para;</a></h2>
+<div class="admonition softwares">
+<p class="admonition-title">Softwares</p>
+<p>python 3.6.4</p>
+<p>pip 9.0.</p>
+</div>
+<div class="codehilite"><pre><span></span>python -V
+pip -V
 </pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Informações para Conhecimento</p>
+<p>Conceito: Framework de desenvolvimento WEB escrito em python.</p>
+<p>Disponibilizado pela primeira vez em Julho de 2015.</p>
+<p>Versão atual: 2.0</p>
+<p>github: <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe"><a href="https://github.com/django/django">https://github.com/django/django</a></a></p>
+</div>
+<h2 id="2-preparacao-do-ambiente">2. Preparação do Ambiente<a class="headerlink" href="#2-preparacao-do-ambiente" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Instalar a última versão do <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe">Python</a>.</p>
+</li>
+<li>
+<p>Entrar no prompt do msdos <code>iniciar &gt; executar: cmd &lt;enter&gt;</code> e criar a pasta do seu projeto, no exemplo: web_django.</p>
+</li>
+</ul>
+<p>WINDOWS:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>cd\
+c:\
+<span class="hll">mkdir web_django
+</span>cd\web_django
+</pre></div>
+</td></tr></table>
+
+<ul>
+<li>Criar e entrar na pasta do seu PROJETO.</li>
+</ul>
+<p>WINDOWS:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>mkdir meu_projeto
+cd meu_projeto
+</pre></div>
+</td></tr></table>
+
+<ul>
+<li>Criar uma Virtual Env para te isolar do sistema operacional. Ou seja, criar um ambiente virtual onde eu possa ter o Django sem afetar o sistema operacional podendo assim eu trabalhar com múltiplas versões.</li>
+</ul>
+<p>WINDOWS:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>python -m venv .venv
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">.venv</p>
+<p>O .venv poderia ser qualquer coisa, exemplo: meuvirtualenv, ou env, ou virtualenv.</p>
+<p>Por convenção e boas práticas é muito utilizado o .venv</p>
+</div>
+<ul>
+<li>Para ativar a Virtual Env, basta executar:</li>
+</ul>
+<p>WINDOWS:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>.\venv\Scripts\activate
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">Deixando o activate automatizado</p>
+<p>Crie o arquivo activate.bat na raiz do seu projeto</p>
+<p>WINDOWS:</p>
+<p><code>copy con activate.bat</code> e <kbd>enter</kbd> e digite o conteúdo abaixo:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>.venv\Scripts\activate.bat
+</pre></div>
+</td></tr></table>
+
+<p>Pressione a tecla <kbd>F6</kbd> e depois <kbd>enter</kbd> para salvar.</p>
+<p>Entre no &gt; diretório: <code>cd .venv\Scripts</code></p>
+<p>Digite: <code>copy con manage.bat</code> e <kbd>enter</kbd> e digite o conteúdo abaixo:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>@python &quot;%VIRTUAL_ENV%\..\manage.py&quot; %*
+</pre></div>
+</td></tr></table>
+
+<p>Pressione a tecla <kbd>F6</kbd> e depois <kbd>enter</kbd> para salvar.</p>
+<p>Pronto, agora para ativar o Virtual Env, basta você digitar: <code>activate</code> na raiz do seu projeto e para executar o ARTISAN do Python (manage.py), basta digitar: <code>manage &lt;instruções de comando&gt;</code>.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Activate / Deactivate Virtual Env</p>
+<p>Para entrar, uma vez feito o processo de automação acima: <code>activate.bat</code> ou caso não queira fazer: <code>.venv\Scripts\activate</code> e você notará que no seu prompt será adicionado o (.venv) na frente do path.</p>
+<p>Para sair da Virtual Env do seu projeto, basta digitar o &gt; comando: <code>deactivate</code> e você notará que será removido o (.venv) do path.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Virtual Env</p>
+<p>Para você saber se o virtual env está ativo, basta ver se na frente do seu path no prompt está o escrito: <code>(.venv)</code>, exemplo: <code>(.venv) c:\web_django\meu_projeto</code></p>
+<p>Caso não esteja, basta ativar conforme a instrução acima: <code>activate</code>.</p>
+</div>
+<h3 id="21-instalando-o-django-venv">2.1. Instalando o Django <small>.venv</small><a class="headerlink" href="#21-instalando-o-django-venv" title="Permanent link">&para;</a></h3>
+<p>Estando na pasta do seu projeto com o Virtual Env ativo (.venv): <code>(.venv) c:\web_django\meu_projeto</code></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>pip install django
+</pre></div>
+</td></tr></table>
+
+<div class="admonition question">
+<p class="admonition-title">Eu posso instalar o django NÃO estando na minha virtual env?</p>
+<p>Não, o correto é você instalar o seu django na sua virtual env criada. Então esteja sempre com ela ativa.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Verificando a versão do django instalada</p>
+<p>WINDOWS:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>python
+import django
+django.VERSION
+</pre></div>
+</td></tr></table>
+
+<p>Sairá algo do tipo:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>  &gt;&gt;&gt; import django
+  &gt;&gt;&gt; django.VERSION
+  (2, 0, 3, &#39;final&#39;, 0)
+</pre></div>
+</td></tr></table>
+
+<p>Digite exit() e <kbd>enter</kbd> para sair</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>exit()
+</pre></div>
+</td></tr></table>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">Verificando os pacotes instalados até o presente momento no .venv</p>
+<p>Para você saber o que foi instalado até o presente momento, basta digitar o comando: <code>pip freeze</code>.</p>
+<p>Você deverá ter algo como do tipo:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Django==2.0.3
+pytz==2018.3
+</pre></div>
+</td></tr></table>
+
+</div>
+<h3 id="22-criando-o-nosso-projeto-em-django">2.2. Criando o nosso projeto em Django<a class="headerlink" href="#22-criando-o-nosso-projeto-em-django" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>django-admin startproject api .
+</pre></div>
+</td></tr></table>
+
+<div class="admonition question">
+<p class="admonition-title">É importante digitar o ponto (.)?</p>
+<p>É importante digitar o ponto (.) para evitar que o admin do django crie uma pasta dentro da outra com o mesmo nome.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Estrutura de Arquivos</p>
+<p><strong>init</strong>.py : significa que tudo que estiver dentro da pasta é um pacote pai.</p>
+<p>settings.py : arquivo mais importante do django.</p>
+<p>urls.py     : arquivo de rotas do django.</p>
+<p>wsgi.py     : arquivo que utilizamos para ser o entrypoint da aplicação. Será aonde iremos configurar o servidor e os arquivos estáticos. Bom lembrar que o django não cuida dos arquivos estáticos.</p>
+</div>
+<hr />
+<h3 id="23-iniciando-a-nossa-primeira-aplicacao-em-django">2.3. Iniciando a nossa primeira aplicação em Django<a class="headerlink" href="#23-iniciando-a-nossa-primeira-aplicacao-em-django" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage startapp core
+</pre></div>
+</td></tr></table>
+
+<h3 id="24-npm-do-django-pipenv">2.4. NPM do Django (pipenv)<a class="headerlink" href="#24-npm-do-django-pipenv" title="Permanent link">&para;</a></h3>
+<p>É muito importante dizer que temos hoje o pipenv que será responsável para separar para nós o que é lib de produção e lib de desenvolvimento, muito semelhante ao que o NPM do nodejs faz.</p>
+<p>É muito recomendável que nos próximos passos a seguir, utilizemos o pipenv para gerenciar os pacotes, pois poderemos especificar o que é dependência de desenvolvimento e dependência de produção.</p>
+<p>github: <a href="https://github.com/pypa/pipenv">https://github.com/pypa/pipenv</a></p>
+<div class="codehilite"><pre><span></span>Instala todas as dependências para o projeto (excluindo as dev)
+pipenv clean
+
+Instala todas as dependências para o projeto (excluindo as dev)
+pipenv install
+
+Instala todas as dependências para o projeto (inclusive as dev)
+pipenv install --dev
+
+Verifica as dependências de segurança e vulnerabilidades
+pipenv check
+
+Gera o arquivo Pipfilelock
+pipenv lock
+</pre></div>
+
+<h3 id="25-instalando-algumas-dependencias">2.5. Instalando algumas dependências<a class="headerlink" href="#25-instalando-algumas-dependencias" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td><td class="code"><div class="codehilite"><pre><span></span># Mysql
+pipenv install mysqlclient
+
+# Libs para se criar o arquivo de ambiente .env
+pipenv install python-decouple
+pipenv install dj-database-url
+
+# lib para se trabalhar com api no django
+pipenv install djangorestframework
+pipenv install django-rest-auth
+pipenv install django-filter
+pipenv install django-cors-headers
+pipenv install django-extensions
+
+# lib para gerar logs do sql gerado
+pipenv install sqlformatter
+
+# Notebook ipython
+pipenv install notebook --dev
+pipenv install &quot;ipython[notebook]&quot; --dev
+</pre></div>
+</td></tr></table>
+
+<h3 id="26-rodando-o-shell_plus-para-executar-comandos-python">2.6. Rodando o shell_plus para executar comandos python<a class="headerlink" href="#26-rodando-o-shell_plus-para-executar-comandos-python" title="Permanent link">&para;</a></h3>
+<p>Para ativar o <code>shell_plus</code>, basta jogar em <em><code>INSTALLED_APPS</code></em> no arquivo <strong>settings.py</strong> o <code>'django_extensions'</code></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>    <span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;django.contrib.admin&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.auth&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.contenttypes&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.sessions&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.messages&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.staticfiles&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django_extensions&#39;</span>
+<span class="p">]</span>
+</pre></div>
+</td></tr></table>
+
+<p>Executando via console:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage shell_plus
+</pre></div>
+</td></tr></table>
+
+<p>Executando via browser:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage shell_plus --notebook
+Obs: aqui deverá abrir uma url com o token, algo semelhante a:
+http://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21
+</pre></div>
+</td></tr></table>
+
+<p><a href="./../assets/images/shell_plus.png"><img alt="Shell_Plus" src="./../assets/images/shell_plus.png" /></a></p>
+<p>Clique em <code>New</code> e depois em Django Shell-Plus</p>
+<p><a href="./../assets/images/shell_plus_terminal.png"><img alt="Shell_Plus_Terminal" src="./../assets/images/shell_plus_terminal.png" /></a></p>
+<p>Para usar é super simples:
+  <kbd>enter</kbd> : Pula linha
+  <kbd>shift-enter</kbd> : Executa o comando</p>
+<p><a href="./../assets/images/shell_plus_exemplo.png"><img alt="Shell_Plus_Exemplo" src="./../assets/images/shell_plus_exemplo.png" /></a></p>
+<div class="admonition info">
+<p class="admonition-title">Shell_Plus</p>
+<p>"Para sair do shell_plus via console, é só digitar: <code>exit()</code> e pressionar <kbd>enter</kbd> e para sair do shell_plus via browser, quero dizer, parar o serviço, basta ir no console que estiver executando e pressionar: <kbd>ctrl+c</kbd></p>
+</div>
+<h3 id="27-configurando-idioma-no-settingspy">2.7. Configurando idioma no <strong>settings.py</strong><a class="headerlink" href="#27-configurando-idioma-no-settingspy" title="Permanent link">&para;</a></h3>
+<p>Aonde você tem:</p>
+<div class="codehilite"><pre><span></span><span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="s1">&#39;en-us&#39;</span>
+<span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="s1">&#39;UTC&#39;</span>
+</pre></div>
+
+<p>Substituia por:</p>
+<div class="codehilite"><pre><span></span><span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="s1">&#39;pt-br&#39;</span>
+<span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Sao_Paulo&#39;</span>
+</pre></div>
+
+<h3 id="28-criando-um-arquivo-env-e-profissionalizando-a-estrutura">2.8. Criando um arquivo .env e profissionalizando a estrutura<a class="headerlink" href="#28-criando-um-arquivo-env-e-profissionalizando-a-estrutura" title="Permanent link">&para;</a></h3>
+<p>É muito importante para termos uma estrutura mais profissional separarmos as configurações de ambiente de configurações do projeto. Para isso usaremos da prática de se criar um arquivo <strong><code>.env</code></strong> na raiz do projeto onde deverá conter as minhas configurações.</p>
+<p>Utilizaremos de uma lib criado pelo Henrique Bastos (welcomethedjango : referência de curso na área) chamada python-decouple e também da lib dj-database-url.</p>
+<ul>
+<li>Crie o arquivo: <strong><code>.env</code></strong> na raiz do projeto com o seguinte conteúdo</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="c1"># Pegue a sua SECRET_KEY já criada ou gere outra hash</span>
+<span class="n">SECRET_KEY</span><span class="o">=</span><span class="n">_fcu</span><span class="err">!</span><span class="mi">1</span><span class="o">-</span><span class="n">n</span><span class="err">$</span><span class="mi">76</span><span class="o">+</span><span class="nd">@v</span><span class="o">=</span><span class="n">v4u9y68</span><span class="p">)</span><span class="n">z</span><span class="err">!</span><span class="p">)</span><span class="n">x0</span><span class="o">%</span><span class="mi">8</span><span class="n">hj</span><span class="err">!</span><span class="mi">51</span><span class="c1">#k$+o)05gkgq40e</span>
+<span class="n">DEBUG</span><span class="o">=</span><span class="bp">True</span>
+<span class="n">ALLOWED_HOSTS</span><span class="o">=</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">,</span><span class="o">.</span><span class="n">localhost</span>
+<span class="n">DATABASE_URL</span><span class="o">=</span><span class="n">mysql</span><span class="p">:</span><span class="o">//</span><span class="n">seu_usuario</span><span class="p">:</span><span class="n">sua_senha</span><span class="nd">@localhost</span><span class="p">:</span><span class="mi">3306</span><span class="o">/</span><span class="n">nomedobancoprincipal</span>
+<span class="n">DATABASE_SECUNDARIO</span><span class="o">=</span><span class="n">mysql</span><span class="p">:</span><span class="o">//</span><span class="n">seu_usuario</span><span class="p">:</span><span class="n">sua_senha</span><span class="nd">@localhost</span><span class="p">:</span><span class="mi">3306</span><span class="o">/</span><span class="n">nomedobancosecundario</span>
+<span class="n">LANGUAGE_CODE</span><span class="o">=</span><span class="n">pt</span><span class="o">-</span><span class="n">br</span>
+<span class="n">TIME_ZONE</span><span class="o">=</span><span class="n">America</span><span class="o">/</span><span class="n">Sao_Paulo</span>
+<span class="n">USE_I18N</span><span class="o">=</span><span class="bp">True</span>
+<span class="n">USE_L10N</span><span class="o">=</span><span class="bp">True</span>
+<span class="n">USE_TZ</span><span class="o">=</span><span class="bp">True</span>
+</pre></div>
+
+<ul>
+<li>Abra o arquivo <strong>settings.py</strong> e adicione logo após a <code>linha 13 : import os</code> o seguinte conteúdo:</li>
+</ul>
+<p><strong>settings.py</strong>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">decouple</span> <span class="kn">import</span> <span class="n">config</span><span class="p">,</span> <span class="n">Csv</span>
+<span class="kn">from</span> <span class="nn">dj_database_url</span> <span class="kn">import</span> <span class="n">parse</span>
+</pre></div></p>
+<ul>
+<li>Substitua o conteúdo abaixo de forma que fique agora dinâmico:</li>
+</ul>
+<p><strong>settings.py</strong>
+<div class="codehilite"><pre><span></span><span class="c1"># SECURITY WARNING: keep the secret key used in production secret!</span>
+<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">)</span>
+
+<span class="c1"># SECURITY WARNING: don&#39;t run with debug turned on in production!</span>
+<span class="n">DEBUG</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DEBUG&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+<span class="n">ALLOWED_HOSTS</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;ALLOWED_HOSTS&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">Csv</span><span class="p">(),</span> <span class="n">default</span><span class="o">=</span><span class="p">[])</span>
+
+<span class="c1"># Database</span>
+<span class="c1"># https://docs.djangoproject.com/en/2.0/ref/settings/#databases</span>
+
+<span class="n">DATABASES</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<span class="n">DATABASES</span><span class="p">[</span><span class="s1">&#39;default&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DATABASE_URL&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">parse</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;sqlite:///&#39;</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">BASE_DIR</span><span class="p">,</span> <span class="s1">&#39;db.sqlite3&#39;</span><span class="p">))</span>
+<span class="c1"># Usarei aqui: farsoft, mas você pode usar o nome que quiser</span>
+<span class="n">DATABASES</span><span class="p">[</span><span class="s1">&#39;farsoft&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DATABASE_SECUNDARIO&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">parse</span><span class="p">)</span>
+
+<span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;LANGUAGE_CODE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;pt-br&#39;</span><span class="p">)</span>
+
+<span class="c1"># Internationalization</span>
+<span class="c1"># https://docs.djangoproject.com/en/2.0/topics/i18n/</span>
+
+<span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;TIME_ZONE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;UTC&#39;</span><span class="p">)</span>
+
+<span class="n">USE_I18N</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;USE_I18N&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+
+<span class="n">USE_L10N</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;USE_L10N&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+
+<span class="n">USE_TZ</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;USE_TZ&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+</pre></div></p>
+<p>Aproveitando, você pode deixar o settings.py ainda mais profissional, para isso vamos separar os INSTALLED_APPS por DJANGO_APPS, THIRD_APPS, LOCAL_APPS.</p>
+<p><strong>settings.py</strong>
+<div class="codehilite"><pre><span></span><span class="c1"># Application definition</span>
+
+<span class="c1"># Libs padrão quem vem com a instalação do Django</span>
+<span class="n">DJANGO_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;django.contrib.admin&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.auth&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.contenttypes&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.sessions&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.messages&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;django.contrib.staticfiles&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="c1"># Libs de Terceiros</span>
+<span class="n">THIRD_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;django_extensions&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;rest_framework&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;rest_framework.authtoken&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;rest_auth&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;corsheaders&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="c1"># Apps locais que criarmos</span>
+<span class="n">LOCAL_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;api.core&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="n">DJANGO_APPS</span> <span class="o">+</span> <span class="n">THIRD_APPS</span> <span class="o">+</span> <span class="n">LOCAL_APPS</span>
+</pre></div></p>
                 
                   
                 
@@ -1472,7 +2033,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="Arlei F. Farnetani Junior" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../Desenvolvimento/Mkdocs/" title="Usando Mkdocs Material" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1481,13 +2042,13 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Arlei F. Farnetani Junior
+                Usando Mkdocs Material
               </span>
             </div>
           </a>
         
         
-          <a href="../Administra%C3%A7%C3%A3o/Produtividade/" title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Javascript/" title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
