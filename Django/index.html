@@ -688,6 +688,60 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#29-iniciando-com-o-banco-de-dados" title="2.9. Iniciando com o banco de dados" class="md-nav__link">
+    2.9. Iniciando com o banco de dados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criando-as-migrations" title="Criando as migrations" class="md-nav__link">
+    Criando as migrations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rodando-o-servidor" title="Rodando o Servidor" class="md-nav__link">
+    Rodando o Servidor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-habilitando-o-cors-para-usar-o-django-com-rest-api" title="2.10. Habilitando o cors para usar o Django com REST Api" class="md-nav__link">
+    2.10. Habilitando o cors para usar o Django com REST Api
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-ativando-o-rest_framework" title="2.11. Ativando o REST_FRAMEWORK" class="md-nav__link">
+    2.11. Ativando o REST_FRAMEWORK
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#212-criando-o-modulo-principal-do-projeto-core" title="2.12. Criando o módulo principal do Projeto: core" class="md-nav__link">
+    2.12. Criando o módulo principal do Projeto: core
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1616,6 +1670,60 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#29-iniciando-com-o-banco-de-dados" title="2.9. Iniciando com o banco de dados" class="md-nav__link">
+    2.9. Iniciando com o banco de dados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criando-as-migrations" title="Criando as migrations" class="md-nav__link">
+    Criando as migrations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rodando-o-servidor" title="Rodando o Servidor" class="md-nav__link">
+    Rodando o Servidor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-habilitando-o-cors-para-usar-o-django-com-rest-api" title="2.10. Habilitando o cors para usar o Django com REST Api" class="md-nav__link">
+    2.10. Habilitando o cors para usar o Django com REST Api
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-ativando-o-rest_framework" title="2.11. Ativando o REST_FRAMEWORK" class="md-nav__link">
+    2.11. Ativando o REST_FRAMEWORK
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#212-criando-o-modulo-principal-do-projeto-core" title="2.12. Criando o módulo principal do Projeto: core" class="md-nav__link">
+    2.12. Criando o módulo principal do Projeto: core
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1654,12 +1762,12 @@ pip -V
 <p>Conceito: Framework de desenvolvimento WEB escrito em python.</p>
 <p>Disponibilizado pela primeira vez em Julho de 2015.</p>
 <p>Versão atual: 2.0</p>
-<p>github: <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe"><a href="https://github.com/django/django">https://github.com/django/django</a></a></p>
+<p>github: <a href="http://www.farsoft.com.br"><a href="https://github.com/django/django">https://github.com/django/django</a></a></p>
 </div>
 <h2 id="2-preparacao-do-ambiente">2. Preparação do Ambiente<a class="headerlink" href="#2-preparacao-do-ambiente" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p>Instalar a última versão do <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe">Python</a>.</p>
+<p>Instalar a última versão do <a href="http://www.farsoft.com.br">Python</a>.</p>
 </li>
 <li>
 <p>Entrar no prompt do msdos <code>iniciar &gt; executar: cmd &lt;enter&gt;</code> e criar a pasta do seu projeto, no exemplo: web_django.</p>
@@ -1972,12 +2080,12 @@ http://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21
 <span class="c1"># Usarei aqui: farsoft, mas você pode usar o nome que quiser</span>
 <span class="n">DATABASES</span><span class="p">[</span><span class="s1">&#39;farsoft&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DATABASE_SECUNDARIO&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">parse</span><span class="p">)</span>
 
-<span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;LANGUAGE_CODE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;pt-br&#39;</span><span class="p">)</span>
-
 <span class="c1"># Internationalization</span>
 <span class="c1"># https://docs.djangoproject.com/en/2.0/topics/i18n/</span>
 
-<span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;TIME_ZONE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;UTC&#39;</span><span class="p">)</span>
+<span class="n">LANGUAGE_CODE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;LANGUAGE_CODE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;pt-br&#39;</span><span class="p">)</span>
+
+<span class="n">TIME_ZONE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;TIME_ZONE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;America/Sao_Paulo&#39;</span><span class="p">)</span>
 
 <span class="n">USE_I18N</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;USE_I18N&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
 
@@ -2015,6 +2123,117 @@ http://localhost:8888/?token=a9dfb42cc3673202a35e16869dcc26c32d6fa720e31b6c21
 
 <span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="n">DJANGO_APPS</span> <span class="o">+</span> <span class="n">THIRD_APPS</span> <span class="o">+</span> <span class="n">LOCAL_APPS</span>
 </pre></div></p>
+<h3 id="29-iniciando-com-o-banco-de-dados">2.9. Iniciando com o banco de dados<a class="headerlink" href="#29-iniciando-com-o-banco-de-dados" title="Permanent link">&para;</a></h3>
+<p>Utilizaremos no exemplo a seguir 2 banco de dados, um banco da aplicação <strong><code>api_bancodedados</code></strong> e um outro para o banco de dados do ERP da <a href="http://www.farsoft.com.br">Farsoft Systems</a>, denominado aqui para fins de exemplo: <strong><code>farsoft_bancodedados</code></strong></p>
+<p>Então o arquivo .env deverá ficar na parte do banco de dados da seguinte maneira:</p>
+<div class="codehilite"><pre><span></span><span class="c1"># Importante: root é o usuário da minha máq local e minha senha local é 123456</span>
+<span class="n">DATABASE_URL</span><span class="o">=</span><span class="n">mysql</span><span class="p">:</span><span class="o">//</span><span class="n">root</span><span class="p">:</span><span class="mi">123456</span><span class="nd">@localhost</span><span class="p">:</span><span class="mi">3306</span><span class="o">/</span><span class="n">api_bancodedados</span>
+<span class="n">DATABASE_SECUNDARIO</span><span class="o">=</span><span class="n">mysql</span><span class="p">:</span><span class="o">//</span><span class="n">root</span><span class="p">:</span><span class="mi">123456</span><span class="nd">@localhost</span><span class="p">:</span><span class="mi">3306</span><span class="o">/</span><span class="n">farsoft_bancodedados</span>
+</pre></div>
+
+<h4 id="criando-as-migrations">Criando as migrations<a class="headerlink" href="#criando-as-migrations" title="Permanent link">&para;</a></h4>
+<p>Uma vez definido as configurações do seu banco de dados, é importante você criar as tabelas iniciais do django, e para isso, você tem as migrations, basta executar o comando abaixo para criar as migrations através dos models, depois gerá-las (migrate) e depois criar o superuser para o acesso ao ambiente <code>/admin</code> do django:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span># Para gerar as tabelas no banco principal
+manage migrate
+
+# Para criar um usuário Admin
+manage createsupersuser
+</pre></div>
+</td></tr></table>
+
+<h4 id="rodando-o-servidor">Rodando o Servidor<a class="headerlink" href="#rodando-o-servidor" title="Permanent link">&para;</a></h4>
+<p>Por padrão, o servidor do django roda na porta 8080, porém para também exemplificar, eu vou rodar ele na porta 8081. Para isso basta digitar o comando abaixo:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage runserver localhost:8081
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">Rodar o Servidor</p>
+<p>Para rodar o servidor na porta padrão: 8080, basta digitar:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage runserver
+</pre></div>
+</td></tr></table>
+
+</div>
+<p>Se você abrir o navegador no endereço: <a href="http://localhost:8081">http://localhost:8081</a>, deverá ter algo como a imagem abaixo:</p>
+<p><a href="./../assets/images/django.PNG"><img alt="Django" src="./../assets/images/django.PNG" /></a></p>
+<p>Vamos acessar agora o Admin do Django, para isso basta digitar o endereço abaixo e entrar com os dados de acesso anteriormente criados:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>http://localhost:8081/admin
+</pre></div>
+</td></tr></table>
+
+<p><a href="./../assets/images/django_login.PNG"><img alt="Django" src="./../assets/images/django_login.PNG" /></a></p>
+<p>Ai você deverá ter algo como a imagem abaixo:</p>
+<p><a href="./../assets/images/django_admin.PNG"><img alt="Django Admin" src="./../assets/images/django_admin.PNG" /></a></p>
+<h3 id="210-habilitando-o-cors-para-usar-o-django-com-rest-api">2.10. Habilitando o cors para usar o Django com REST Api<a class="headerlink" href="#210-habilitando-o-cors-para-usar-o-django-com-rest-api" title="Permanent link">&para;</a></h3>
+<p>Edite o arquivo <strong><code>settings.py</code></strong> e adicione em MIDDLEWARE na
+primeira linha:</p>
+<p><strong>settings.py</strong></p>
+<div class="codehilite"><pre><span></span><span class="s1">&#39;corsheaders.middleware.CorsMiddleware&#39;</span><span class="p">,</span>
+</pre></div>
+
+<p>E adicione depois, também em settings.py, após a declaração do INSTALLED_APPS a variável:</p>
+<p><strong>settings.py</strong></p>
+<div class="codehilite"><pre><span></span><span class="n">CORS_ORIGIN_ALLOW_ALL</span> <span class="o">=</span> <span class="bp">True</span>
+</pre></div>
+
+<h3 id="211-ativando-o-rest_framework">2.11. Ativando o REST_FRAMEWORK<a class="headerlink" href="#211-ativando-o-rest_framework" title="Permanent link">&para;</a></h3>
+<p>Edite o arquivo <strong><code>settings.py</code></strong> e adicione abaixo de INSTALLED_APPS e CORS_ORIGIN_ALLOW_ALL o código:</p>
+<div class="codehilite"><pre><span></span><span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;DEFAULT_PERMISSION_CLASSES&#39;</span><span class="p">:</span> <span class="p">(</span>
+        <span class="s1">&#39;rest_framework.permissions.IsAuthenticated&#39;</span><span class="p">,</span>
+        <span class="c1"># &#39;rest_framework.permissions.DjangoModelPermissions&#39;,  # Habilitar se quiser fazer valer o controle de acesso do Admin do Django</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;DEFAULT_FILTER_BACKENDS&#39;</span><span class="p">:</span> <span class="p">(</span>
+        <span class="s1">&#39;django_filters.rest_framework.DjangoFilterBackend&#39;</span><span class="p">,</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;DEFAULT_AUTHENTICATION_CLASSES&#39;</span><span class="p">:</span> <span class="p">(</span>
+        <span class="s1">&#39;rest_framework.authentication.TokenAuthentication&#39;</span><span class="p">,</span>
+        <span class="c1"># &#39;rest_framework.authentication.SessionAuthentication&#39;, # Ativar em modo de desenvolvimento pra facilitar os testes da API com métodos GET</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;DEFAULT_PARSER_CLASSES&#39;</span><span class="p">:</span> <span class="p">(</span>
+        <span class="s1">&#39;rest_framework.parsers.JSONParser&#39;</span><span class="p">,</span>
+    <span class="p">),</span>
+    <span class="s1">&#39;COERCE_DECIMAL_TO_STRING&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="s1">&#39;DEFAULT_PAGINATION_CLASS&#39;</span><span class="p">:</span> <span class="s1">&#39;rest_framework.pagination.LimitOffsetPagination&#39;</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+
+<h4 id="212-criando-o-modulo-principal-do-projeto-core">2.12. Criando o módulo principal do Projeto: core<a class="headerlink" href="#212-criando-o-modulo-principal-do-projeto-core" title="Permanent link">&para;</a></h4>
+<p>Por convenção é muito comum utilizarmos como primeira aplicação a palavra: core, que significa NÚCLEO, ou melhor, NÚCLEO PRINCIPAL, mas poderia ser qualquer outro nome.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>django-admin startapp core
+</pre></div>
+</td></tr></table>
+
+<p>Uma vez rodado esse comando acima você notará que aparecerá no diretório da sua aplicação uma <code>pasta = core</code>.</p>
+<p>Agora, precisamos registrar essa aplicação no <strong><code>settings.py</code></strong>.</p>
+<div class="codehilite"><pre><span></span><span class="c1"># Apps locais que criarmos</span>
+<span class="n">LOCAL_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;api.core&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+</pre></div>
+
+<p>Agora, vamos ativar a autenticação via TOKEN. Para isso, basta digitar na linha de comando:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>manage migrate
+</pre></div>
+</td></tr></table>
+
+<p>Você deverá ver algo como:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Operations to perform:
+  Apply all migrations: admin, auth, authtoken, contenttypes, sessions
+Running migrations:
+<span class="hll">  Applying authtoken.0001_initial... OK
+</span><span class="hll">  Applying authtoken.0002_auto_20160226_1747... OK
+</span></pre></div>
+</td></tr></table>
                 
                   
                 
