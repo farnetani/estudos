@@ -99,6 +99,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
+      <a href="#fazendo-a-magica-acontecer" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -749,9 +753,78 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        14. Trabalhando com os Migrations
+      </label>
+    
     <a href="./" title="14. Trabalhando com os Migrations" class="md-nav__link md-nav__link--active">
       14. Trabalhando com os Migrations
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fazendo-a-magica-acontecer" title="Fazendo a Mágica acontecer" class="md-nav__link">
+    Fazendo a Mágica acontecer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convencao-de-prefixo" title="Convenção de Prefixo" class="md-nav__link">
+    Convenção de Prefixo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forcar-o-nome-da-tabela-no-model" title="Forçar o nome da tabela no model" class="md-nav__link">
+    Forçar o nome da tabela no model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisando-as-migrations" title="Revisando as Migrations" class="md-nav__link">
+    Revisando as Migrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revertendo-as-migrations-do-zero" title="Revertendo as Migrations do Zero" class="md-nav__link">
+    Revertendo as Migrations do Zero
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recriando-as-migrations" title="Recriando as Migrations" class="md-nav__link">
+    Recriando as Migrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dica-fixando-o-comando" title="Dica: Fixando o comando" class="md-nav__link">
+    Dica: Fixando o comando
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1608,6 +1681,77 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fazendo-a-magica-acontecer" title="Fazendo a Mágica acontecer" class="md-nav__link">
+    Fazendo a Mágica acontecer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convencao-de-prefixo" title="Convenção de Prefixo" class="md-nav__link">
+    Convenção de Prefixo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forcar-o-nome-da-tabela-no-model" title="Forçar o nome da tabela no model" class="md-nav__link">
+    Forçar o nome da tabela no model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisando-as-migrations" title="Revisando as Migrations" class="md-nav__link">
+    Revisando as Migrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revertendo-as-migrations-do-zero" title="Revertendo as Migrations do Zero" class="md-nav__link">
+    Revertendo as Migrations do Zero
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recriando-as-migrations" title="Recriando as Migrations" class="md-nav__link">
+    Recriando as Migrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dica-fixando-o-comando" title="Dica: Fixando o comando" class="md-nav__link">
+    Dica: Fixando o comando
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1619,6 +1763,7 @@
                 <ol>
 <li>Trabalhando com os Migrations</li>
 </ol>
+<h2 id="fazendo-a-magica-acontecer">Fazendo a Mágica acontecer<a class="headerlink" href="#fazendo-a-magica-acontecer" title="Permanent link">&para;</a></h2>
 <p>Agora é a hora da mágica (rs), basta executar o comando:</p>
 <div class="codehilite"><pre><span></span>manage makemigrations
 </pre></div>
@@ -1628,12 +1773,14 @@
 <div class="codehilite"><pre><span></span>manage migrate
 </pre></div>
 
+<h2 id="convencao-de-prefixo">Convenção de Prefixo<a class="headerlink" href="#convencao-de-prefixo" title="Permanent link">&para;</a></h2>
 <p>Por convensão, o django irá criar a tabela no banco chamada de: <strong><code>core_tarefa</code></strong>, ou seja, ele irá gerar um prefixo: "core_" que é o nome da nossa App criada.</p>
 <p>Você pode comprovar conforme imagem abaixo obtida entrando no mysql:</p>
 <div class="codehilite"><pre><span></span>mysql -u root -p
 </pre></div>
 
 <p><a href="../../assets/images/bancodedados.PNG"><img alt="core_tarefas" src="../../assets/images/bancodedados.PNG" /></a></p>
+<h2 id="forcar-o-nome-da-tabela-no-model">Forçar o nome da tabela no model<a class="headerlink" href="#forcar-o-nome-da-tabela-no-model" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Forçando o nome da tabela a ser criado sem o prefixo.</li>
 </ul>
@@ -1665,6 +1812,7 @@
 <span class="hll">        <span class="n">db_table</span> <span class="o">=</span> <span class="s1">&#39;tarefas&#39;</span>
 </span></pre></div>
 
+<h2 id="revisando-as-migrations">Revisando as Migrations<a class="headerlink" href="#revisando-as-migrations" title="Permanent link">&para;</a></h2>
 <p>Imagine que agora iremos precisar recriar a migration novamente e desfazer a que criamos.</p>
 <p>Para visualizar as migrations já criadas/executadas, digite o comando:</p>
 <div class="codehilite"><pre><span></span>manage showmigrations core
@@ -1674,6 +1822,7 @@
 <div class="codehilite"><pre><span></span>[X] 0001_initial
 </pre></div>
 
+<h2 id="revertendo-as-migrations-do-zero">Revertendo as Migrations do Zero<a class="headerlink" href="#revertendo-as-migrations-do-zero" title="Permanent link">&para;</a></h2>
 <p>Como estamos no início da aplicação, podemos reverter todas as migrations com o comando:</p>
 <div class="codehilite"><pre><span></span>manage migrate core zero
 </pre></div>
@@ -1686,6 +1835,7 @@
 <div class="codehilite"><pre><span></span> [ ] 0001_initial
 </pre></div>
 
+<h2 id="recriando-as-migrations">Recriando as Migrations<a class="headerlink" href="#recriando-as-migrations" title="Permanent link">&para;</a></h2>
 <p>Agora, podemos remover o arquivo <strong><code>core &gt; migrations &gt; 0001_initial.py</code></strong> e recriá-lo com o comando:</p>
 <div class="codehilite"><pre><span></span>manage makemigrations
 </pre></div>
@@ -1696,6 +1846,7 @@
 
 <p>Se tudo correu bem e você entrar no banco de dados (mysql), você deverá ter a sua tabela anterior: <code>core_tabelas</code> excluída e a nova tabela: <code>tarefas</code> gerada com sucesso conforme a imagem abaixo:</p>
 <p><a href="../../assets/images/bancodedados_novo.PNG"><img alt="Tarefas" src="../../assets/images/bancodedados_novo.PNG" /></a></p>
+<h2 id="dica-fixando-o-comando">Dica: Fixando o comando<a class="headerlink" href="#dica-fixando-o-comando" title="Permanent link">&para;</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Migration</p>
 <p>manage migrate core zero</p>
