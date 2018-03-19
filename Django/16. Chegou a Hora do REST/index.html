@@ -1853,6 +1853,7 @@
 <h3 id="autenticacao">Autenticação<a class="headerlink" href="#autenticacao" title="Permanent link">&para;</a></h3>
 <p>Antes de tudo, precisamos saber que o sistema estará validando as rotas, ou seja, o usuário deverá estar autenticado para executá-las.</p>
 <p>Para isso, precisamos obter através da rota abaixo o TOKEN JWT que será utilizado posteriormente em todas as operações para a realização das outras operações.</p>
+<p><strong><em><a href="http://localhost:8081/rest-auth/login/">http://localhost:8081/rest-auth/login/</a></em></strong>
 <div class="codehilite"><pre><span></span><span class="n">Method</span><span class="p">:</span> <span class="n">POST</span>
 <span class="n">url</span><span class="p">:</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8081</span><span class="o">/</span><span class="n">rest</span><span class="o">-</span><span class="n">auth</span><span class="o">/</span><span class="n">login</span><span class="o">/</span>
 <span class="n">Headers</span><span class="p">:</span> <span class="n">Content</span><span class="o">-</span><span class="n">Type</span> <span class="o">=</span> <span class="n">application</span><span class="o">/</span><span class="n">json</span>
@@ -1861,19 +1862,26 @@
     <span class="s2">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;admin&quot;</span><span class="p">,</span>
     <span class="s2">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;admin123&quot;</span>
 <span class="p">}</span>
-</pre></div>
-
+</pre></div></p>
 <p><a href="../../assets/images/postman_header.PNG"><img alt="Postman - Headers" src="../../assets/images/postman_header.PNG" /></a>
-  <strong>Preenchimento do Headers</strong></p>
+  <center><strong>Preenchimento do Headers</strong></center></p>
 <p><a href="../../assets/images/postman_token.PNG"><img alt="Postman - Post" src="../../assets/images/postman_token.PNG" /></a>
-  <strong>Preenchimento da requisição</strong></p>
+  <center><strong>Preenchimento da requisição</strong></center></p>
 <p>Conforme você viu pela imagem acima, o DJANGO nos retornou o token JWT:</p>
 <div class="codehilite"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;key&quot;</span><span class="p">:</span> <span class="s2">&quot;52825719dbd5d629efef041044ef5edb7707b2c1&quot;</span>
 <span class="p">}</span>
 </pre></div>
 
-<p>Agora basta usarmos ele nas próximas requisições</p>
+<hr />
+<p>Agora basta usarmos ele nas próximas requisições.</p>
+<p><strong><em><a href="http://localhost:8081/api/tarefa">http://localhost:8081/api/tarefa</a></em></strong>
+<div class="codehilite"><pre><span></span><span class="n">Method</span><span class="p">:</span> <span class="n">GET</span>
+<span class="n">url</span><span class="p">:</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8081</span><span class="o">/</span><span class="n">api</span><span class="o">/</span><span class="n">tarefa</span>
+<span class="n">Headers</span><span class="p">:</span> <span class="n">Authorization</span> <span class="o">=</span> <span class="n">Token</span> <span class="mi">52825719</span><span class="n">dbd5d629efef041044ef5edb7707b2c1</span>
+</pre></div></p>
+<p><a href="../../assets/images/postman_get_tarefas.PNG"><img alt="Postman - Post" src="../../assets/images/postman_get_tarefas.PNG" /></a>
+  <center><strong>Requisição do tipo GET para listar todas as Tarefas</strong></center></p>
                 
                   
                 
