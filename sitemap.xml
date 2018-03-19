@@ -50,13 +50,85 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/</loc>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/01. Preparando Ambiente/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/resumo/</loc>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/02. Instalando o Django/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/03. Criando nosso Projeto/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/04. Iniciando a nossa primeira App/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/05. NPM do Django (pipenv)/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/06. Shell Plus/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/07. Configurando a nossa App (settings.py)/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/08. Configurando o Banco de Dados Mysql/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/09. Configurando o CORS para uso futuro das APIs/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/10. Configurando o REST_FRAMEWORK/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/11. Registrando a nossa App (core) no Django/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/12. Preparando a autenticação via TOKEN JWT/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/13. Criando o nosso primeiro CRUD/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material//Django/99. Tabela de Comandos/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
