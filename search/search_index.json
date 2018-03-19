@@ -596,6 +596,16 @@
             "title": "Autentica\u00e7\u00e3o"
         },
         {
+            "location": "/Django/98. Ciclo Django/",
+            "text": "98. Ciclo Django\n\u00b6",
+            "title": "98. Ciclo Django"
+        },
+        {
+            "location": "/Django/98. Ciclo Django/#98-ciclo-django",
+            "text": "",
+            "title": "98. Ciclo Django"
+        },
+        {
             "location": "/Django/99. Tabela de Comandos/",
             "text": "99. Tabela de Comandos\n\u00b6\n\n\n\n  \n\n    \n\n    \n\n  \n\n  \n\n    \n\n      \nComando\n\n      \nFuncionalidade\n\n    \n\n  \n\n  \n\n    \n\n      \npythom -m venv .venv\n\n      \nCria um Virtual Env (ambiente virtual) que isola o ambiente da sua aplica\u00e7\u00e3o do sistema operacional.\n\n    \n\n    \n\n      \n.venv\\Scripts\\activate\n\n      \nAtiva o virtual env da aplica\u00e7\u00e3o.\n\n    \n\n    \n\n      \ndeactivate\n\n      \nDesativa / Sai do virtual env da aplica\u00e7\u00e3o.\n\n    \n\n    \n\n      \npip install django\n\n      \nInstala a \u00faltimva vers\u00e3o do Django.\n\n    \n\n    \n\n      \ndjango-admin startproject nomedoprojeto .\n\n      \nCria um projeto django chamado: nomedoprojeto.\n\n    \n\n    \n\n      \npython manage.py runserver 127.0.0.1:8081\n\n      \nInicia o servidor na m\u00e1quina local na porta 8081.\n\n    \n\n    \n\n      \npip install pipenv\n\n      \nInstala o gerenciador de pacotes do python. (semelhante ao NPM, ele cria os arquivos Pipfile e Pipfile.lock e te possibilita separar libs de produ\u00e7\u00e3o de libs de desenvolvimento.\n\n    \n\n    \n\n      \nmanage makemigrations\n\n      \nGera as migrations com base nos models criados.\n\n    \n\n    \n\n      \nmanage migrate\n\n      \nExecuta as migrations geradas.\n\n    \n\n    \n\n      \nmanage showmigrations nomedaapp (ex: core)\n\n      \nMostra as migrations j\u00e1 executadas.\n\n    \n\n    \n\n      \nmanage makemigrations --empty nomedamigration\n\n      \nGera uma migration em branco.\n\n    \n\n    \n\n      \n\n          \n# Mysql\n\n          \n\n          pipenv install mysqlclient\n          \n\n          \n\n          \n# Libs para se criar o arquivo de ambiente .env\n\n          \n\n          pipenv install python-decouple\n          \n\n          pipenv install dj-database-url\n          \n\n          \n\n          \n# Libs para se trabalhar com api no django\n\n          \n\n          pipenv install djangorestframework\n          \n\n          pipenv install django-rest-auth\n          \n\n          pipenv install django-filter\n          \n\n          pipenv install django-cors-headers\n          \n\n          pipenv install django-extensions\n          \n\n          \n# Lib para gerar logs do sql gerado\n\n          \n\n          pipenv install sqlformatter\n          \n\n          \n# Notebook ipython\n\n          \n\n          pipenv install notebook --dev\n          \n\n          pipenv install \"ipython[notebook]\" --dev\n      \n\n      \nPacotes mais utilizados.",
             "title": "99. Tabela de Comandos"

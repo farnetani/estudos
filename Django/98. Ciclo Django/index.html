@@ -13,7 +13,7 @@
         <meta name="description" content="Documentação Pessoal de Arlei F. Farnetani Junior">
       
       
-        <link rel="canonical" href="https://farnetani.github.io/estudos/Django/13. Criando o nosso primeiro CRUD/">
+        <link rel="canonical" href="https://farnetani.github.io/estudos/Django/98. Ciclo Django/">
       
       
         <meta name="author" content="Martin Donath">
@@ -42,7 +42,7 @@
     
     
       
-        <title>13. Criando o nosso primeiro CRUD - MkDocs Farnetani</title>
+        <title>98. Ciclo Django - MkDocs Farnetani</title>
       
     
     
@@ -99,7 +99,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#13-criando-o-nosso-primeiro-crud" tabindex="1" class="md-skip">
+      <a href="#98-ciclo-django" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -125,7 +125,7 @@
                 MkDocs Farnetani
               </span>
               <span class="md-header-nav__topic">
-                13. Criando o nosso primeiro CRUD
+                98. Ciclo Django
               </span>
             
           
@@ -745,70 +745,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        13. Criando o nosso primeiro CRUD
-      </label>
-    
-    <a href="./" title="13. Criando o nosso primeiro CRUD" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../13.%20Criando%20o%20nosso%20primeiro%20CRUD/" title="13. Criando o nosso primeiro CRUD" class="md-nav__link">
       13. Criando o nosso primeiro CRUD
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Índice</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-tarefas" title="Exemplo: Tarefas" class="md-nav__link">
-    Exemplo: Tarefas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#padrao-mvt-model-view-template" title="Padrão MVT (Model, View, Template)" class="md-nav__link">
-    Padrão MVT (Model, View, Template)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#criando-o-model-tarefas" title="Criando o Model: Tarefas" class="md-nav__link">
-    Criando o Model: Tarefas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#habilitando-no-admin-do-django-o-model-tarefas" title="Habilitando no Admin do Django o model Tarefas" class="md-nav__link">
-    Habilitando no Admin do Django o model Tarefas
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -852,11 +793,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../98.%20Ciclo%20Django/" title="98. Ciclo Django" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="98. Ciclo Django" class="md-nav__link md-nav__link--active">
       98. Ciclo Django
     </a>
+    
   </li>
 
         
@@ -1710,43 +1660,6 @@
     
   
   
-    <label class="md-nav__title" for="toc">Índice</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-tarefas" title="Exemplo: Tarefas" class="md-nav__link">
-    Exemplo: Tarefas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#padrao-mvt-model-view-template" title="Padrão MVT (Model, View, Template)" class="md-nav__link">
-    Padrão MVT (Model, View, Template)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#criando-o-model-tarefas" title="Criando o Model: Tarefas" class="md-nav__link">
-    Criando o Model: Tarefas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#habilitando-no-admin-do-django-o-model-tarefas" title="Habilitando no Admin do Django o model Tarefas" class="md-nav__link">
-    Habilitando no Admin do Django o model Tarefas
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1758,47 +1671,8 @@
               
                 
                 
-                <h1 id="13-criando-o-nosso-primeiro-crud">13. Criando o nosso primeiro CRUD<a class="headerlink" href="#13-criando-o-nosso-primeiro-crud" title="Permanent link">&para;</a></h1>
-<p>Vamos criar agora um pequeno CRUD bem simples para exemplificar o uso do Admin do Django e depois veremos como irá funcionar como Rest Api.</p>
-<h2 id="exemplo-tarefas">Exemplo: Tarefas<a class="headerlink" href="#exemplo-tarefas" title="Permanent link">&para;</a></h2>
-<p>Para isso, iremos criar uma tabela no banco bem simples, apenas com 3 campos, chamada: Tarefas.</p>
-<h2 id="padrao-mvt-model-view-template">Padrão MVT (Model, View, Template)<a class="headerlink" href="#padrao-mvt-model-view-template" title="Permanent link">&para;</a></h2>
-<p>No django, o padrão de desenvolvimento é MVT e não MVC, mais adiante vamos entender melhor isso.</p>
-<h2 id="criando-o-model-tarefas">Criando o Model: Tarefas<a class="headerlink" href="#criando-o-model-tarefas" title="Permanent link">&para;</a></h2>
-<p>Abrir o arquivo <strong><code>core &gt; models.py</code></strong> e implementar o código abaixo:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Tarefa</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
-
-    <span class="n">STATUS</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="p">(</span><span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;Pendente&#39;</span><span class="p">),</span>
-        <span class="p">(</span><span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;Finalizada&#39;</span><span class="p">),</span>
-        <span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;Cancelada&#39;</span><span class="p">)</span>
-    <span class="p">)</span>
-
-    <span class="n">descricao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">)</span>
-    <span class="n">status</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">choices</span><span class="o">=</span><span class="n">STATUS</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;P&#39;</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">descricao</span>
-
-    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
-        <span class="n">ordering</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;descricao&#39;</span><span class="p">)</span>
-</pre></div>
-
-<h2 id="habilitando-no-admin-do-django-o-model-tarefas">Habilitando no Admin do Django o model Tarefas<a class="headerlink" href="#habilitando-no-admin-do-django-o-model-tarefas" title="Permanent link">&para;</a></h2>
-<p>Vamos habilitar no Admin do Django os recursos de CRUD e mais recursos de pesquisa e filtro e determinar quais campos (fields) queremos que apareça no GRID.</p>
-<p>Editar o arquivo <strong><code>core &gt; admin.py</code></strong> e registrar o Model criado:</p>
-<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
-<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Tarefa</span>
-<span class="c1"># Register your models here.</span>
-
-<span class="c1"># admin.site.register(Tarefa) # Se fosse pra registrar de forma simples</span>
-
-<span class="nd">@admin.register</span><span class="p">(</span><span class="n">Tarefa</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">TarefaAdmin</span><span class="p">(</span><span class="n">admin</span><span class="o">.</span><span class="n">ModelAdmin</span><span class="p">):</span>
-    <span class="n">list_display</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;descricao&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">]</span>
-    <span class="n">list_filter</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">)</span>
-    <span class="n">search_fields</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;descricao&#39;</span><span class="p">,)</span>
-</pre></div>
+                <h1 id="98-ciclo-django">98. Ciclo Django<a class="headerlink" href="#98-ciclo-django" title="Permanent link">&para;</a></h1>
+<p><a href="../../assets/images/django_ciclo.jpg"><img alt="Ciclo" src="../../assets/images/django_ciclo.jpg" /></a></p>
                 
                   
                 
@@ -1817,7 +1691,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../12.%20Preparando%20a%20autentica%C3%A7%C3%A3o%20via%20TOKEN/" title="12. Preparando a autenticação via TOKEN" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../16.%20Chegou%20a%20Hora%20do%20REST/" title="16. Chegou a Hora do REST" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1826,19 +1700,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                12. Preparando a autenticação via TOKEN
+                16. Chegou a Hora do REST
               </span>
             </div>
           </a>
         
         
-          <a href="../14.%20Trabalhando%20com%20os%20Migrations/" title="14. Trabalhando com os Migrations" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../99.%20Tabela%20de%20Comandos/" title="99. Tabela de Comandos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                14. Trabalhando com os Migrations
+                99. Tabela de Comandos
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
