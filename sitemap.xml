@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//</loc>
+     <loc>https://farnetani.github.io/estudos//</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//sobre/</loc>
+     <loc>https://farnetani.github.io/estudos//sobre/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -20,7 +20,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+     <loc>https://farnetani.github.io/estudos/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -30,7 +30,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Delphi/</loc>
+     <loc>https://farnetani.github.io/estudos//Delphi/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -40,7 +40,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Desenvolvimento/Mkdocs/</loc>
+     <loc>https://farnetani.github.io/estudos//Desenvolvimento/Mkdocs/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -50,107 +50,97 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/01. Preparando Ambiente/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/01. Preparando Ambiente/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/02. Instalando o Django/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/02. Instalando o Django/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/03. Criando nosso Projeto/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/03. Criando nosso Projeto/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/04. Iniciando a nossa primeira App/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/04. Iniciando a nossa primeira App/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/05. NPM do Django (pipenv)/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/05. NPM do Django (pipenv)/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/06. Shell Plus/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/06. Shell Plus/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/07. Configurando a nossa App (settings.py)/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/07. Configurando a nossa App (settings.py)/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/08. Configurando o Banco de Dados Mysql/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/08. Configurando o Banco de Dados Mysql/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/09. Configurando o CORS para uso futuro das APIs/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/09. Configurando o CORS para uso futuro das APIs/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/10. Configurando o REST_FRAMEWORK/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/10. Configurando o REST_FRAMEWORK/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/11. Registrando a nossa App (core) no Django/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/11. Registrando a nossa App (core) no Django/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/12. Preparando a autenticação via TOKEN JWT/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/12. Preparando a autenticação via TOKEN JWT/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/13. Criando o nosso primeiro CRUD/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/13. Criando o nosso primeiro CRUD/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/14. Trabalhando com os Migrations/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/14. Trabalhando com os Migrations/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/15. Testando nosso primeiro CRUD/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/15. Testando nosso primeiro CRUD/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Django/99. Tabela de Comandos/</loc>
-     <lastmod>2018-03-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Javascript/</loc>
+     <loc>https://farnetani.github.io/estudos//Django/99. Tabela de Comandos/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -160,7 +150,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Links-Top/</loc>
+     <loc>https://farnetani.github.io/estudos//Javascript/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -170,7 +160,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//PHP/</loc>
+     <loc>https://farnetani.github.io/estudos//Links-Top/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -180,7 +170,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Python/</loc>
+     <loc>https://farnetani.github.io/estudos//PHP/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -190,7 +180,7 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material//Vuejs/</loc>
+     <loc>https://farnetani.github.io/estudos//Python/</loc>
      <lastmod>2018-03-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -200,25 +190,35 @@
     
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+     <loc>https://farnetani.github.io/estudos//Vuejs/</loc>
+     <lastmod>2018-03-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://farnetani.github.io/estudos/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+     <loc>https://farnetani.github.io/estudos/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+     <loc>https://farnetani.github.io/estudos/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+     <loc>https://farnetani.github.io/estudos/</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
