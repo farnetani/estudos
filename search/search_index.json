@@ -596,6 +596,21 @@
             "title": "Autentica\u00e7\u00e3o"
         },
         {
+            "location": "/Django/17. Revis\u00e3o de Conceitos/",
+            "text": "",
+            "title": "17. Revis\u00e3o de Conceitos"
+        },
+        {
+            "location": "/Django/97. Sequencia de Comandos/",
+            "text": "97. Sequencia de Comandos\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\nmkdir\n \napi\n-\ncurso\n\n\ncd\n \napi\n-\ncurso\n\n\n\npython\n \n-\nm\n \nvenv\n \n.\nvenv\n\n\n\n.\nvenv\n\\\nScripts\n\\\nactivate\n\n\n\npip\n \ninstall\n \npipenv\n\n\n\nCopiar\n \no\n \narquivo\n \nPipenv\n \ne\n \nPipenv\n.\nlock\n \npara\n \na\n \npasta\n \ndo\n \nprojeto\n\n\n\npipenv\n \ninstall\n \ndjango\n\n\n\ndjango\n-\nadmin\n \nstartproject\n \nmeuPrimeiroProjeto\n \n.\n\n\n\npython\n \nmanage\n.\npy\n \nmigrate\n\n\n\npython\n \nmanage\n.\npy\n \ncreatesuperuser\n\n  \nfarnetani\n\n  \nfarnetani\n@gmail.com\n\n  \nminhasenha\n\n\n\npython\n \nmanage\n.\npy\n \nrunserver\n \nlocalhost\n:\n8081\n\n\n\nAbrir\n \no\n \narquivo\n \nmeuPrimeiroProjeto\n \n>\n \nurls\n.\npy\n\n\n\nCriar\n \numa\n \nrota\n:\n \nHello\n \nWorld\n:\n\n\n  \nfrom\n \n.views\n \nimport\n \nhello\n\n\n  \npath\n(\n'hello/'\n,\n \nhello\n)\n\n\n\nCriar\n \no\n \narquivo\n \nmeuPrimeiroProjeto\n \n>\n \nviews\n.\npy\n\n\n  \nfrom\n \ndjango.http\n \nimport\n \nHttpResponse\n\n\n  \ndef\n \nhello\n(\nrequest\n):\n\n    \nreturn\n \nHttpResponse\n(\n'Hello World!'\n)\n\n\n  \ndef\n \narticles\n(\nrequest\n,\n \nyear\n):\n\n    \nreturn\n \nHttpResponse\n(\n'O ano enviado foi: '\n \n+\n \nstr\n(\nyear\n))\n\n\n\n  \nAdicionar\n \nno\n \narquivo\n \nurls\n.\npy\n\n\n  \npath\n(\n'articles/<int:year>/'\n,\n \narticles\n),\n\n\n  \nhttp\n:\n//\nlocalhost\n:\n8081\n/\narticles\n/\n2018\n/",
+            "title": "97. Sequencia de Comandos"
+        },
+        {
+            "location": "/Django/97. Sequencia de Comandos/#97-sequencia-de-comandos",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48 mkdir   api - curso  cd   api - curso  python   - m   venv   . venv  . venv \\ Scripts \\ activate  pip   install   pipenv  Copiar   o   arquivo   Pipenv   e   Pipenv . lock   para   a   pasta   do   projeto  pipenv   install   django  django - admin   startproject   meuPrimeiroProjeto   .  python   manage . py   migrate  python   manage . py   createsuperuser \n   farnetani \n   farnetani @gmail.com \n   minhasenha  python   manage . py   runserver   localhost : 8081  Abrir   o   arquivo   meuPrimeiroProjeto   >   urls . py  Criar   uma   rota :   Hello   World : \n\n   from   .views   import   hello \n\n   path ( 'hello/' ,   hello )  Criar   o   arquivo   meuPrimeiroProjeto   >   views . py \n\n   from   django.http   import   HttpResponse \n\n   def   hello ( request ): \n     return   HttpResponse ( 'Hello World!' ) \n\n   def   articles ( request ,   year ): \n     return   HttpResponse ( 'O ano enviado foi: '   +   str ( year )) \n\n\n   Adicionar   no   arquivo   urls . py \n\n   path ( 'articles/<int:year>/' ,   articles ), \n\n   http : // localhost : 8081 / articles / 2018 /",
+            "title": "97. Sequencia de Comandos"
+        },
+        {
             "location": "/Django/98. Ciclo Django/",
             "text": "98. Ciclo Django\n\u00b6",
             "title": "98. Ciclo Django"
