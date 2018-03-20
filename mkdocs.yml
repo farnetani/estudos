@@ -21,12 +21,12 @@
 # Project information
 site_name: MkDocs Farnetani
 site_description: Documentação Pessoal de Arlei F. Farnetani Junior
-site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Arlei F. Farnetani Junior
+site_url: https://farnetani.github.io/estudos/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: farnetani/django_material_mkdocs
+repo_url: https://github.com/farnetani/django_material_mkdocs
 edit_uri: ""
 
 # Copyright
@@ -46,7 +46,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: pt
   feature:
     tabs: true
   palette:
@@ -63,13 +63,13 @@ theme:
 extra:
   social:
     - type: globe
-      link: http://struct.cc
+      link: http://www.farsoft.com.br
     - type: github-alt
-      link: https://github.com/squidfunk
+      link: https://github.com/farnetani
     - type: twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/farnetani
     - type: linkedin
-      link: https://linkedin.com/in/squidfunk
+      link: https://linkedin.com/in/farnetani
 
 # Extensions
 markdown_extensions:
@@ -101,21 +101,26 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Material: index.md
-  - Getting started: getting-started.md
-  - Extensions:
-    - Admonition: extensions/admonition.md
-    - CodeHilite: extensions/codehilite.md
-    - Footnotes: extensions/footnotes.md
-    - Metadata: extensions/metadata.md
-    - Permalinks: extensions/permalinks.md
-    - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
-  - Customization: customization.md
-  - Release notes: release-notes.md
-  - Author's notes: authors-notes.md
-  - Contributing: contributing.md
-  - License: license.md
+  # - 'Home': 'index.md'
+  # - 'Servidores':
+  #   - 'Nginx':
+  #       - 'Python': 'servidores/nginx/python.md'
+  #       - 'PHP': 'servidores/nginx/php.md'
+  #   - 'Apache':
+  #       - 'Python': 'servidores/apache/python.md'
+  # - 'Oracle':
+  #   - 'PL/SQL':
+  #     - 'uteis': 'oracle/plsql/uteis.md'
+  # - 'Desenvolvimento':
+  #   - 'Python/Django':
+  #     - 'Projeto Heroku': 'desenvolvimento/pythondjango/heroku.md'
+  #     - 'Rest Framework': 'desenvolvimento/pythondjango/rest_framework.md'
+  #     - 'Queries': 'desenvolvimento/pythondjango/queries.md'
+  #     - 'Ldap Windows': 'desenvolvimento/pythondjango/ldap.md'
+  #   - 'JavaScript/Vue':
+  #     - 'Telerik':
+  #       - 'StartProject': 'desenvolvimento/javascriptvue/telerik/startproject.md'
+  #       - 'Samples': 'desenvolvimento/javascriptvue/telerik/samples.md'
 
 # Google Analytics
 google_analytics:

@@ -1,50 +1,21 @@
-# Material <small>for MkDocs</small>
+# Informações
 
-!!! info "Call for Contributions: Add languages/translations to Material"
+!!! question "Documentação Pessoal de desenvolvimento"
 
-    Help translate Material into more languages - it's just **one click** and
-    takes approximately **2 minutes**: [click here](http://bit.ly/2EbzFc8)
+    Fontes da documentação com autenticação podem ser baixados
+    em:
 
-## Create beautiful project documentation
+    https://github.com/farnetani/django_material_mkdocs
 
-Material is a theme for [MkDocs][1], an excellent static site generator geared
-towards project documentation. It is built using Google's [Material Design][2]
-guidelines.
 
-[![Material for MkDocs](assets/images/material.png)](assets/images/material.png)
+!!! info "Informações de Contato"
 
-  [1]: http://www.mkdocs.org
-  [2]: https://material.io/guidelines/material-design/
+    **Arlei Ferreira Farnetani Junior**
 
-## Quick start
+    CEO Farsoft Systems
 
-Install the latest version of Material with `pip`:
+    farnetani@gmail.com
 
-``` sh
-pip install mkdocs-material
-```
+    (35)98883-7909
 
-Append the following line to your project's `mkdocs.yml`:
-
-``` yaml
-theme:
-  name: 'material'
-```
-
-## What to expect
-
-* Responsive design and fluid layout for all kinds of screens and devices,
-  designed to serve your project documentation in a user-friendly way in 24
-  languages with optimal readability.
-
-* Easily customizable primary and accent color, fonts, favicon and logo;
-  straight forward localization through theme extension; integrated with Google
-  Analytics, Disqus and GitHub.
-
-* Well-designed search interface accessible through hotkeys (<kbd>F</kbd> or
-  <kbd>S</kbd>), intelligent grouping of search results, search term
-  highlighting and lazy loading.
-
-For detailed instructions see the [getting started guide][3].
-
-  [3]: getting-started.md
+    http://www.farsoft.com.br
