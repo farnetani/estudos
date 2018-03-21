@@ -597,7 +597,12 @@
         },
         {
             "location": "/Django/17. Revis\u00e3o de Conceitos/",
-            "text": "",
+            "text": "17. Revis\u00e3o de Conceitos\n\u00b6\n\n\nviews.py\n\n\n\u00c9 o arquivo aonde configurarei as rotas do DJANGO.",
+            "title": "17. Revis\u00e3o de Conceitos"
+        },
+        {
+            "location": "/Django/17. Revis\u00e3o de Conceitos/#17-revisao-de-conceitos",
+            "text": "views.py  \u00c9 o arquivo aonde configurarei as rotas do DJANGO.",
             "title": "17. Revis\u00e3o de Conceitos"
         },
         {
@@ -629,6 +634,116 @@
             "location": "/Django/99. Tabela de Comandos/#99-tabela-de-comandos",
             "text": "Comando \n       Funcionalidade \n     \n   \n   \n     \n       pythom -m venv .venv \n       Cria um Virtual Env (ambiente virtual) que isola o ambiente da sua aplica\u00e7\u00e3o do sistema operacional. \n     \n     \n       .venv\\Scripts\\activate \n       Ativa o virtual env da aplica\u00e7\u00e3o. \n     \n     \n       deactivate \n       Desativa / Sai do virtual env da aplica\u00e7\u00e3o. \n     \n     \n       pip install django \n       Instala a \u00faltimva vers\u00e3o do Django. \n     \n     \n       django-admin startproject nomedoprojeto . \n       Cria um projeto django chamado: nomedoprojeto. \n     \n     \n       python manage.py runserver 127.0.0.1:8081 \n       Inicia o servidor na m\u00e1quina local na porta 8081. \n     \n     \n       pip install pipenv \n       Instala o gerenciador de pacotes do python. (semelhante ao NPM, ele cria os arquivos Pipfile e Pipfile.lock e te possibilita separar libs de produ\u00e7\u00e3o de libs de desenvolvimento. \n     \n     \n       manage makemigrations \n       Gera as migrations com base nos models criados. \n     \n     \n       manage migrate \n       Executa as migrations geradas. \n     \n     \n       manage showmigrations nomedaapp (ex: core) \n       Mostra as migrations j\u00e1 executadas. \n     \n     \n       manage makemigrations --empty nomedamigration \n       Gera uma migration em branco. \n     \n     \n       \n           # Mysql \n           \n          pipenv install mysqlclient\n           \n           \n           # Libs para se criar o arquivo de ambiente .env \n           \n          pipenv install python-decouple\n           \n          pipenv install dj-database-url\n           \n           \n           # Libs para se trabalhar com api no django \n           \n          pipenv install djangorestframework\n           \n          pipenv install django-rest-auth\n           \n          pipenv install django-filter\n           \n          pipenv install django-cors-headers\n           \n          pipenv install django-extensions\n           \n           # Lib para gerar logs do sql gerado \n           \n          pipenv install sqlformatter\n           \n           # Notebook ipython \n           \n          pipenv install notebook --dev\n           \n          pipenv install \"ipython[notebook]\" --dev\n       \n       Pacotes mais utilizados.",
             "title": "99. Tabela de Comandos"
+        },
+        {
+            "location": "/Flask/API em Flask/",
+            "text": "API em Flask\n\u00b6\n\n\nData: 21/03/2018\n\n\n\n\nExemplo do Tutorial\ngithub: \nhttps://github.com/farnetani/farnetani_python_api_flask\n\n\n\n\n\n\nPreparando o Ambiente PYTHON (>=3.6)\n\u00b6\n\n\nCriando Diret\u00f3rio do Projeto\n\u00b6\n\n\ncd\\\nc:\\\nmkdir web-flask\ncd web-flask\nmkdir api-flask\ncd api-flask\n\n\n\n\n\n\nCriando o Virtual Env\n\u00b6\n\n\npython -m venv venv\n\n\n\n\nAtivando o Virtual Env\n\u00b6\n\n\nvenv\\scripts\\activate\n\n\n\n\n\n\nInstalando o gerenciador de pacotes: pipenv (melhor que pip)\n\u00b6\n\n\npip install pipenv\n\n\n\n\n\n\nInstalando as libs que usaremos\n\u00b6\n\n\npipenv install flask # Dispensa coment\u00e1rios\npipenv install flask-sqlalchemy # Para gerenciar o banco de dados\npipenv install flask-restless # Para gerar o CRUD atrav\u00e9s de nossos models\npipenv install flask-login # Para gerar a autentica\u00e7\u00e3o\n\n\n\n\n\n\nCriando Estrutura do Projeto\n\u00b6\n\n\n\n\nCriar o arquivo run.py na raiz do projeto.\n\n\nCriar a pasta app.\n\n\nCriar as subpastas: models e routes em app.\n\n\n\n\n    app\\models\n    app\\routes\n\n\n\n\n\n\nCriar em cada pasta o arquivo: \n__init__.py\n para determinar que cada pasta ser\u00e1 um m\u00f3dulo.\n\n\n\n\n    app\\models\\__init__.py\n    app\\routes\\__init__.py\n    app\\__init__.py\n    run.py\n\n\n\n\nConte\u00fado dos arquivos de cada pasta:\n\u00b6\n\n\napp/__init__.py\n\n\n1\n2\n3\nfrom\n \nflask\n \nimport\n \nFlask\n\n\n\napp\n \n=\n \nFlask\n(\n__name__\n)\n\n\n\n\n\n\n\nrun.py\n\n\n1\n2\n3\n4\nfrom\n \napp\n \nimport\n \napp\n\n\n\nif\n \n__name__\n \n==\n \n'__main__'\n:\n\n    \napp\n.\nrun\n(\nport\n=\n8080\n,\n \ndebug\n=\nTrue\n)\n\n\n\n\n\n\n\napp/routes/__init__.py\n\n\n1\n2\n3\n4\n5\nfrom\n \napp\n \nimport\n \napp\n\n\n\n@app.route\n(\n'/'\n)\n\n\ndef\n \nindex\n():\n\n    \nreturn\n \n\"Ol\u00e1 Mundo!\"\n\n\n\n\n\n\n\nrun.py\n (Importar o m\u00f3dulo de rotas)\n\n\n1\n2\n3\n4\n5\n6\n7\nfrom\n \napp\n \nimport\n \napp\n\n\n\n# Importando rotas\n\n\nfrom\n \napp.routes\n \nimport\n \n*\n\n\n\n\nif\n \n__name__\n \n==\n \n'__main__'\n:\n\n    \napp\n.\nrun\n(\nport\n=\n8080\n,\n \ndebug\n=\nTrue\n)\n\n\n\n\n\n\n\nConfigurando o banco de dados\n\u00b6\n\n\nCriar a pasta: database na raiz do projeto.\n\n\nNo arquivo \n__init__.py\n da pasta \napp\n:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nfrom\n \nflask\n \nimport\n \nFlask\n\n\nfrom\n \nflask_sqlalchemy\n \nimport\n \nSQLAlchemy\n\n\n\napp\n \n=\n \nFlask\n(\n__name__\n)\n\n\n\n\napp\n.\nconfig\n[\n'SQLALCHEMY_DATABASE_URI'\n]\n \n=\n \n'sqlite:///database/bancodedados.db'\n\n\ndb\n \n=\n \nSQLAlchemy\n(\napp\n)\n\n\n\n\nclass\n \nUsuario\n(\ndb\n.\nModel\n):\n\n\n    \nid\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nInteger\n,\n \nprimary_key\n=\nTrue\n)\n\n\n    \nnome\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n100\n))\n\n\n\n\ndb\n.\ncreate_all\n()\n\n\n\n\n\n\n\nConfigurando o Flask-Restless\n\u00b6\n\n\nImportar o APIManager: \nfrom flask_restless import APIManager\n\ne criar um manager (gerenciador): \nmanager = APIManager(app, flask_sqlalchemy_db=db)\n\n\nRescrever o arquivo \n__init__.py\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\nfrom\n \nflask\n \nimport\n \nFlask\n\n\nfrom\n \nflask_sqlalchemy\n \nimport\n \nSQLAlchemy\n\n\nfrom\n \nflask_restless\n \nimport\n \nAPIManager\n\n\n\n\napp\n \n=\n \nFlask\n(\n__name__\n)\n\n\n\napp\n.\nconfig\n[\n'SQLALCHEMY_DATABASE_URI'\n]\n \n=\n \n'sqlite:///database/storage.db'\n\n\ndb\n \n=\n \nSQLAlchemy\n(\napp\n)\n\n\n\n\nmanager\n \n=\n \nAPIManager\n(\napp\n,\n \nflask_sqlalchemy_db\n=\ndb\n)\n\n\n\n\n\n\n\nFlask-Restless\n\u00b6\n\n\nCria todos os m\u00e9todos de CRUD.\n\n\n\n\nIniciando a aplica\u00e7\u00e3o\n\u00b6\n\n\n\n\nCriar o model:\n\n\n\n\nusuario.py\n:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\nfrom\n \napp\n \nimport\n \ndb\n\n\nfrom\n \napp\n \nimport\n \nmanager\n\n\n\nclass\n \nCliente\n(\ndb\n.\nModel\n):\n\n    \nid\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nInteger\n,\n \nprimary_key\n=\nTrue\n)\n\n    \nnome\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n100\n))\n\n    \ndt_nascimento\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nDateTime\n)\n\n    \ncpf\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n14\n))\n\n    \nemail\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n100\n),\n \nunique\n=\nTrue\n)\n\n\n\ndb\n.\ncreate_all\n()\n\n\n# Aqui acontece toda a m\u00e1gica. \u00c9 a linha respons\u00e1vel por criar os M\u00c9TODOS automaticamente pra n\u00f3s\n\n\nmanager\n.\ncreate_api\n(\nCliente\n,\n \nmethods\n=\n[\n'POST'\n,\n \n'GET'\n,\n \n'PUT'\n,\n \n'DELETE'\n])\n\n\n\n\n\n\n\n\n\n\n\nReferenciar o model criado em:\n\n\n\n\n__init__.py\n:\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\nfrom\n \napp\n \nimport\n \napp\n\n\n\n# Importando rotas\n\n\nfrom\n \napp.routes\n \nimport\n \n*\n\n\n\n# Importando models\n\n\nfrom\n \napp.models\n \nimport\n \nusuario\n\n\n\n\nif\n \n__name__\n \n==\n \n'__main__'\n:\n\n    \napp\n.\nrun\n(\nport\n=\n8080\n,\n \ndebug\n=\nTrue\n)\n\n\n\n\n\n\n\n\n\n\n\nSe acessarmos agora no navegador, vamos ver que nossa API j\u00e1 est\u00e1 pronta:\n\n\n\n\nhttp://localhost:8080/api/cliente\n, veremos que a API est\u00e1 funcionando:\n\n\n//\n \nhttp://localhost:\n8080\n/api/cliente\n\n\n{\n\n  \n\"num_results\"\n:\n \n0\n,\n\n  \n\"objects\"\n:\n \n[\n\n\n  \n],\n\n  \n\"page\"\n:\n \n1\n,\n\n  \n\"total_pages\"\n:\n \n0\n\n\n}\n\n\n\n\n\n\n\nObserva\u00e7\u00f5es\n\u00b6\n\n\nPor padr\u00e3o, o manager do flask-restless ir\u00e1 gerar o nome da rota em min\u00fasculo. O \nnome do model\n n\u00e3o pode usar \nUNDERSCORE\n, tem que usar a regra do camelo: \nGrupoUsuario\n e n\u00e3o \nGrupo_Usuario\n.\n\n\nTestes com Postman\n\u00b6\n\n\nCREATE: \nhttp://localhost:8080/api/cliente\n\n\nmethod\n:\n \nPOST\n\n\nHeaders\n:\n \nkey\n \n=\n \nContent\n-\nType\n \n|\n \nValue\n \n=\n \napplication\n/\njson\n\n\nurl\n:\n \nhttp\n:\n//\nlocalhost\n:\n8080\n/\napi\n/\ncliente\n\n\nraw\n\n\n{\n\n    \n\"nome\"\n:\n \n\"Junior\"\n,\n\n    \n\"dt_nascimento\"\n:\n \n\"1977-12-31 00:00:00\"\n,\n\n    \n\"cpf\"\n:\n \n\"12345678901\"\n,\n\n    \n\"email\"\n:\n \n\"farnetani@gmail.com\"\n\n\n}\n\n\n\nResult\n:\n\n\n\n{\n\n    \n\"cpf\"\n:\n \n\"12345678901\"\n,\n\n    \n\"dt_nascimento\"\n:\n \n\"1977-12-31T00:00:00\"\n,\n\n    \n\"email\"\n:\n \n\"farnetani@gmail.com\"\n,\n\n    \n\"id\"\n:\n \n1\n,\n\n    \n\"nome\"\n:\n \n\"Junior\"\n\n\n}\n\n\n\n\n\nGET: \nhttp://localhost:8080/api/cliente\n\n\nmethod\n:\n \nGET\n\n\nHeaders\n:\n \nkey\n \n=\n \nContent\n-\nType\n \n|\n \nValue\n \n=\n \napplication\n/\njson\n\n\nurl\n:\n \nhttp\n:\n//\nlocalhost\n:\n8080\n/\napi\n/\ncliente\n\n\n\nResult\n:\n\n\n\n{\n\n    \n\"num_results\"\n:\n \n1\n,\n\n    \n\"objects\"\n:\n \n[\n\n        \n{\n\n            \n\"cpf\"\n:\n \n\"12345678901\"\n,\n\n            \n\"dt_nascimento\"\n:\n \n\"1977-12-31T00:00:00\"\n,\n\n            \n\"email\"\n:\n \n\"farnetani@gmail.com\"\n,\n\n            \n\"id\"\n:\n \n1\n,\n\n            \n\"nome\"\n:\n \n\"Junior\"\n\n        \n}\n\n    \n],\n\n    \n\"page\"\n:\n \n1\n,\n\n    \n\"total_pages\"\n:\n \n1\n\n\n}\n\n\n\n\n\nCriando o model: endereco\n\u00b6\n\n\nendereco.py\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\nfrom\n \napp\n \nimport\n \ndb\n\n\nfrom\n \napp\n \nimport\n \nmanager\n\n\n\nclass\n \nEndereco\n(\ndb\n.\nModel\n):\n\n    \nid\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nInteger\n,\n \nprimary_key\n=\nTrue\n)\n\n    \nlogradouro\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n100\n))\n\n    \nnumero\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n10\n))\n\n    \nbairro\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nString\n(\n50\n))\n\n\n\ndb\n.\ncreate_all\n()\n\n\nmanager\n.\ncreate_api\n(\nEndereco\n,\n \nmethods\n=\n[\n'POST'\n,\n'DELETE'\n,\n'PUT'\n,\n'GET'\n])\n\n\n\n\n\n\n\nReferenciando a chave no model: usuario\n\u00b6\n\n\nusuario.py\n\n\nendereco_id\n \n=\n \ndb\n.\nColumn\n(\ndb\n.\nInteger\n,\n \ndb\n.\nForeignKey\n(\n'endereco.id'\n))\n\n\nendereco\n \n=\n \ndb\n.\nrelationship\n(\n'Endereco'\n)\n\n\n\n\n\n\n\nTestando com o postman\n\u00b6\n\n\nmethod\n:\n \nPOST\n\n\nHeaders\n:\n \nkey\n \n=\n \nContent\n-\nType\n \n|\n \nValue\n \n=\n \napplication\n/\njson\n\n\nurl\n:\n \nhttp\n:\n//\nlocalhost\n:\n8080\n/\napi\n/\nendereco\n\n\nraw\n\n\n{\n\n    \n\"logradouro\"\n:\n \n\"Rua Jacintho Libanio\"\n,\n\n    \n\"numero\"\n:\n \n\"420\"\n,\n\n    \n\"bairro\"\n:\n \n\"Sao Carlos\"\n\n\n}\n\n\n\nResult\n:\n\n\n\n{\n\n    \n\"bairro\"\n:\n \n\"Sao Carlos\"\n,\n\n    \n\"id\"\n:\n \n1\n,\n\n    \n\"logradouro\"\n:\n \n\"Rua Jacintho Libanio\"\n,\n\n    \n\"numero\"\n:\n \n\"420\"\n\n\n}\n\n\n\n\n\nCriando um arquivo em PYTHON de exemplo pra testar as requisi\u00e7\u00f5es\n\u00b6\n\n\npipenv install requests\n\n\nexemplo-requisicao.py\n\n\nimport\n \nrequests\n\n\nimport\n \njson\n\n\n\nurl\n \n=\n \n'http://127.0.0.1:8080/api/cliente'\n\n\nheaders\n \n=\n \n{\n'Content-Type'\n:\n \n'application/json'\n}\n\n\n\nfilters\n \n=\n \n[\ndict\n(\nnome\n=\n'Sauro'\n,\n \nop\n=\n'like'\n,\n \nval\n=\n'%y%'\n)]\n\n\nparams\n \n=\n \ndict\n(\nq\n=\njson\n.\ndumps\n(\ndict\n(\nfilters\n=\nfilters\n)))\n\n\n\nresponse\n \n=\n \nrequests\n.\nget\n(\nurl\n,\n \nparams\n=\nparams\n,\n \nheaders\n=\nheaders\n)\n\n\nassert\n \nresponse\n.\nstatus_code\n \n==\n \n200\n\n\nprint\n(\nresponse\n.\njson\n())\n\n\n\n\n\nPara executar o teste:\n\n\n\n\nStart o servidor: \npython run.py\n\n\nExecute o arquivo acima de exemplo: \npython exemplo-requisicao.py\n\n   Voc\u00ea ver\u00e1 o resultado no console!\n\n\n\n\nLinks\n\u00b6\n\n\nhttp://flask-sqlalchemy.pocoo.org/2.3/quickstart/#a-minimal-application\n\n\nhttps://flask-restless.readthedocs.io/en/stable/customizing.html\n\n\nCursos recomendados:\n\u00b6\n\n\nhttps://www.udemy.com/crie-apis-rest-com-python/learn/v4/overview",
+            "title": "API em Flask"
+        },
+        {
+            "location": "/Flask/API em Flask/#api-em-flask",
+            "text": "Data: 21/03/2018   Exemplo do Tutorial github:  https://github.com/farnetani/farnetani_python_api_flask",
+            "title": "API em Flask"
+        },
+        {
+            "location": "/Flask/API em Flask/#preparando-o-ambiente-python-36",
+            "text": "",
+            "title": "Preparando o Ambiente PYTHON (&gt;=3.6)"
+        },
+        {
+            "location": "/Flask/API em Flask/#criando-diretorio-do-projeto",
+            "text": "cd\\\nc:\\\nmkdir web-flask\ncd web-flask\nmkdir api-flask\ncd api-flask",
+            "title": "Criando Diret\u00f3rio do Projeto"
+        },
+        {
+            "location": "/Flask/API em Flask/#criando-o-virtual-env",
+            "text": "python -m venv venv",
+            "title": "Criando o Virtual Env"
+        },
+        {
+            "location": "/Flask/API em Flask/#ativando-o-virtual-env",
+            "text": "venv\\scripts\\activate",
+            "title": "Ativando o Virtual Env"
+        },
+        {
+            "location": "/Flask/API em Flask/#instalando-o-gerenciador-de-pacotes-pipenv-melhor-que-pip",
+            "text": "pip install pipenv",
+            "title": "Instalando o gerenciador de pacotes: pipenv (melhor que pip)"
+        },
+        {
+            "location": "/Flask/API em Flask/#instalando-as-libs-que-usaremos",
+            "text": "pipenv install flask # Dispensa coment\u00e1rios\npipenv install flask-sqlalchemy # Para gerenciar o banco de dados\npipenv install flask-restless # Para gerar o CRUD atrav\u00e9s de nossos models\npipenv install flask-login # Para gerar a autentica\u00e7\u00e3o",
+            "title": "Instalando as libs que usaremos"
+        },
+        {
+            "location": "/Flask/API em Flask/#criando-estrutura-do-projeto",
+            "text": "Criar o arquivo run.py na raiz do projeto.  Criar a pasta app.  Criar as subpastas: models e routes em app.       app\\models\n    app\\routes   Criar em cada pasta o arquivo:  __init__.py  para determinar que cada pasta ser\u00e1 um m\u00f3dulo.       app\\models\\__init__.py\n    app\\routes\\__init__.py\n    app\\__init__.py\n    run.py",
+            "title": "Criando Estrutura do Projeto"
+        },
+        {
+            "location": "/Flask/API em Flask/#conteudo-dos-arquivos-de-cada-pasta",
+            "text": "app/__init__.py  1\n2\n3 from   flask   import   Flask  app   =   Flask ( __name__ )    run.py  1\n2\n3\n4 from   app   import   app  if   __name__   ==   '__main__' : \n     app . run ( port = 8080 ,   debug = True )    app/routes/__init__.py  1\n2\n3\n4\n5 from   app   import   app  @app.route ( '/' )  def   index (): \n     return   \"Ol\u00e1 Mundo!\"    run.py  (Importar o m\u00f3dulo de rotas)  1\n2\n3\n4\n5\n6\n7 from   app   import   app  # Importando rotas  from   app.routes   import   *   if   __name__   ==   '__main__' : \n     app . run ( port = 8080 ,   debug = True )",
+            "title": "Conte\u00fado dos arquivos de cada pasta:"
+        },
+        {
+            "location": "/Flask/API em Flask/#configurando-o-banco-de-dados",
+            "text": "Criar a pasta: database na raiz do projeto.  No arquivo  __init__.py  da pasta  app :   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 from   flask   import   Flask  from   flask_sqlalchemy   import   SQLAlchemy  app   =   Flask ( __name__ )   app . config [ 'SQLALCHEMY_DATABASE_URI' ]   =   'sqlite:///database/bancodedados.db'  db   =   SQLAlchemy ( app )   class   Usuario ( db . Model ):       id   =   db . Column ( db . Integer ,   primary_key = True )       nome   =   db . Column ( db . String ( 100 ))   db . create_all ()",
+            "title": "Configurando o banco de dados"
+        },
+        {
+            "location": "/Flask/API em Flask/#configurando-o-flask-restless",
+            "text": "Importar o APIManager:  from flask_restless import APIManager \ne criar um manager (gerenciador):  manager = APIManager(app, flask_sqlalchemy_db=db)  Rescrever o arquivo  __init__.py   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10 from   flask   import   Flask  from   flask_sqlalchemy   import   SQLAlchemy  from   flask_restless   import   APIManager   app   =   Flask ( __name__ )  app . config [ 'SQLALCHEMY_DATABASE_URI' ]   =   'sqlite:///database/storage.db'  db   =   SQLAlchemy ( app )   manager   =   APIManager ( app ,   flask_sqlalchemy_db = db )",
+            "title": "Configurando o Flask-Restless"
+        },
+        {
+            "location": "/Flask/API em Flask/#flask-restless",
+            "text": "Cria todos os m\u00e9todos de CRUD.",
+            "title": "Flask-Restless"
+        },
+        {
+            "location": "/Flask/API em Flask/#iniciando-a-aplicacao",
+            "text": "Criar o model:   usuario.py :   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 from   app   import   db  from   app   import   manager  class   Cliente ( db . Model ): \n     id   =   db . Column ( db . Integer ,   primary_key = True ) \n     nome   =   db . Column ( db . String ( 100 )) \n     dt_nascimento   =   db . Column ( db . DateTime ) \n     cpf   =   db . Column ( db . String ( 14 )) \n     email   =   db . Column ( db . String ( 100 ),   unique = True )  db . create_all ()  # Aqui acontece toda a m\u00e1gica. \u00c9 a linha respons\u00e1vel por criar os M\u00c9TODOS automaticamente pra n\u00f3s  manager . create_api ( Cliente ,   methods = [ 'POST' ,   'GET' ,   'PUT' ,   'DELETE' ])      Referenciar o model criado em:   __init__.py :   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10 from   app   import   app  # Importando rotas  from   app.routes   import   *  # Importando models  from   app.models   import   usuario   if   __name__   ==   '__main__' : \n     app . run ( port = 8080 ,   debug = True )      Se acessarmos agora no navegador, vamos ver que nossa API j\u00e1 est\u00e1 pronta:   http://localhost:8080/api/cliente , veremos que a API est\u00e1 funcionando:  //   http://localhost: 8080 /api/cliente  { \n   \"num_results\" :   0 , \n   \"objects\" :   [ \n\n   ], \n   \"page\" :   1 , \n   \"total_pages\" :   0  }",
+            "title": "Iniciando a aplica\u00e7\u00e3o"
+        },
+        {
+            "location": "/Flask/API em Flask/#observacoes",
+            "text": "Por padr\u00e3o, o manager do flask-restless ir\u00e1 gerar o nome da rota em min\u00fasculo. O  nome do model  n\u00e3o pode usar  UNDERSCORE , tem que usar a regra do camelo:  GrupoUsuario  e n\u00e3o  Grupo_Usuario .",
+            "title": "Observa\u00e7\u00f5es"
+        },
+        {
+            "location": "/Flask/API em Flask/#testes-com-postman",
+            "text": "CREATE:  http://localhost:8080/api/cliente  method :   POST  Headers :   key   =   Content - Type   |   Value   =   application / json  url :   http : // localhost : 8080 / api / cliente  raw  { \n     \"nome\" :   \"Junior\" , \n     \"dt_nascimento\" :   \"1977-12-31 00:00:00\" , \n     \"cpf\" :   \"12345678901\" , \n     \"email\" :   \"farnetani@gmail.com\"  }  Result :  { \n     \"cpf\" :   \"12345678901\" , \n     \"dt_nascimento\" :   \"1977-12-31T00:00:00\" , \n     \"email\" :   \"farnetani@gmail.com\" , \n     \"id\" :   1 , \n     \"nome\" :   \"Junior\"  }   GET:  http://localhost:8080/api/cliente  method :   GET  Headers :   key   =   Content - Type   |   Value   =   application / json  url :   http : // localhost : 8080 / api / cliente  Result :  { \n     \"num_results\" :   1 , \n     \"objects\" :   [ \n         { \n             \"cpf\" :   \"12345678901\" , \n             \"dt_nascimento\" :   \"1977-12-31T00:00:00\" , \n             \"email\" :   \"farnetani@gmail.com\" , \n             \"id\" :   1 , \n             \"nome\" :   \"Junior\" \n         } \n     ], \n     \"page\" :   1 , \n     \"total_pages\" :   1  }",
+            "title": "Testes com Postman"
+        },
+        {
+            "location": "/Flask/API em Flask/#criando-o-model-endereco",
+            "text": "endereco.py   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11 from   app   import   db  from   app   import   manager  class   Endereco ( db . Model ): \n     id   =   db . Column ( db . Integer ,   primary_key = True ) \n     logradouro   =   db . Column ( db . String ( 100 )) \n     numero   =   db . Column ( db . String ( 10 )) \n     bairro   =   db . Column ( db . String ( 50 ))  db . create_all ()  manager . create_api ( Endereco ,   methods = [ 'POST' , 'DELETE' , 'PUT' , 'GET' ])",
+            "title": "Criando o model: endereco"
+        },
+        {
+            "location": "/Flask/API em Flask/#referenciando-a-chave-no-model-usuario",
+            "text": "usuario.py  endereco_id   =   db . Column ( db . Integer ,   db . ForeignKey ( 'endereco.id' ))  endereco   =   db . relationship ( 'Endereco' )",
+            "title": "Referenciando a chave no model: usuario"
+        },
+        {
+            "location": "/Flask/API em Flask/#testando-com-o-postman",
+            "text": "method :   POST  Headers :   key   =   Content - Type   |   Value   =   application / json  url :   http : // localhost : 8080 / api / endereco  raw  { \n     \"logradouro\" :   \"Rua Jacintho Libanio\" , \n     \"numero\" :   \"420\" , \n     \"bairro\" :   \"Sao Carlos\"  }  Result :  { \n     \"bairro\" :   \"Sao Carlos\" , \n     \"id\" :   1 , \n     \"logradouro\" :   \"Rua Jacintho Libanio\" , \n     \"numero\" :   \"420\"  }",
+            "title": "Testando com o postman"
+        },
+        {
+            "location": "/Flask/API em Flask/#criando-um-arquivo-em-python-de-exemplo-pra-testar-as-requisicoes",
+            "text": "pipenv install requests  exemplo-requisicao.py  import   requests  import   json  url   =   'http://127.0.0.1:8080/api/cliente'  headers   =   { 'Content-Type' :   'application/json' }  filters   =   [ dict ( nome = 'Sauro' ,   op = 'like' ,   val = '%y%' )]  params   =   dict ( q = json . dumps ( dict ( filters = filters )))  response   =   requests . get ( url ,   params = params ,   headers = headers )  assert   response . status_code   ==   200  print ( response . json ())   Para executar o teste:   Start o servidor:  python run.py  Execute o arquivo acima de exemplo:  python exemplo-requisicao.py \n   Voc\u00ea ver\u00e1 o resultado no console!",
+            "title": "Criando um arquivo em PYTHON de exemplo pra testar as requisi\u00e7\u00f5es"
+        },
+        {
+            "location": "/Flask/API em Flask/#links",
+            "text": "http://flask-sqlalchemy.pocoo.org/2.3/quickstart/#a-minimal-application  https://flask-restless.readthedocs.io/en/stable/customizing.html",
+            "title": "Links"
+        },
+        {
+            "location": "/Flask/API em Flask/#cursos-recomendados",
+            "text": "https://www.udemy.com/crie-apis-rest-com-python/learn/v4/overview",
+            "title": "Cursos recomendados:"
         },
         {
             "location": "/Javascript/",
