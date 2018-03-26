@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://farnetani.github.io/estudos//</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>https://farnetani.github.io/estudos//sobre/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -30,8 +30,18 @@
     
         
     <url>
+     <loc>https://farnetani.github.io/estudos//Automação/Tabela CEST 2018/</loc>
+     <lastmod>2018-03-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>https://farnetani.github.io/estudos//Delphi/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -41,7 +51,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Desenvolvimento/Mkdocs/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -51,127 +61,127 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/00. Agradecimentos/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/01. Preparando Ambiente/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/02. Instalando o Django/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/03. Criando nosso Projeto/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/04. Iniciando a nossa primeira App/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/05. NPM do Django (pipenv)/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/06. Shell Plus/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/07. Configurando a nossa App (settings.py)/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/08. Configurando o Banco de Dados Mysql/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/09. Configurando o CORS para uso futuro das APIs/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/10. Configurando o REST_FRAMEWORK/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/11. Registrando a nossa App (core) no Django/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/12. Preparando a autenticação via TOKEN/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/13. Criando o nosso primeiro CRUD/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/14. Trabalhando com os Migrations/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/15. Testando nosso primeiro CRUD/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/16. Chegou a Hora do REST/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/17. Revisão de Conceitos/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/97. Sequencia de Comandos/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/98. Ciclo Django/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Django/99. Tabela de Comandos/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -181,7 +191,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Flask/API em Flask/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -191,7 +201,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Javascript/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -201,7 +211,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Links-Top/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -211,7 +221,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//PHP/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -221,7 +231,7 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Python/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -231,19 +241,19 @@
         
     <url>
      <loc>https://farnetani.github.io/estudos//Vuejs/Eslint/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Vuejs/Header and Footer Fixed/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://farnetani.github.io/estudos//Vuejs/</loc>
-     <lastmod>2018-03-25</lastmod>
+     <lastmod>2018-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
